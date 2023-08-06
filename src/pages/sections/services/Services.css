@@ -10,7 +10,7 @@
     width: 40rem;
     min-width: 10rem;
     height: 12rem;
-    border: solid 0.2rem var(--bg-mode-secondary);
+    border: solid 0.2rem var(--bg-mode-primary);
     /* border: solid 0.2rem var(--color-dark-500); */
     border-radius: 1rem;
     /* background-color: var(--color-dark-500); */
@@ -29,6 +29,7 @@
     /* background-color: var(--color-dark-200); */
     gap: 1.2rem;
 }
+
 
 .services-icon{
     width: 3rem;
@@ -49,7 +50,7 @@
   }
 .services-card1:hover .icon{
     background-color: var(--color-primary1);
-    color: var(--mode-text-100);
+    color: var(--bg-mode-primary);
 }
 .services-tags{
     font-size: 1.5rem;

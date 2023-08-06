@@ -38,7 +38,7 @@ const Theme = () => {
 
   const switchMode =()=>{
     setDarkMode(prev => !prev);
-    const userMode = modeThemesData.filter(um =>um.name === `${darkMode? "dark" : "light"}`);
+    const userMode = modeThemesData.filter(um =>um.name === `${darkMode? "light" : "dark"}`);
     userMode.map(m=>{
       document.documentElement.style.setProperty(`--bg-mode-primary`, m.primaryColor);
     document.documentElement.style.setProperty(`--bg-mode-secondary`, m.secondaryColor);

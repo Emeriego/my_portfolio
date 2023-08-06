@@ -129,12 +129,14 @@
     cursor: pointer;
 }
 .menu a{
-    color:var(--mode-text-100);
+    color:var(--bg-mode-primary);
 }
 .theme-btn{
     width: 1.5rem;
     height: 1.5rem;
     border-radius: 50%;
+    color:var(--bg-mode-primary);
+
   }
 .btn-1{
     background-color: var(--theme-btn-1);
