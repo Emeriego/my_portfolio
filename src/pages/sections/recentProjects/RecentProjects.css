@@ -1,0 +1,83 @@
+.jobs-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.jobs-header{
+    max-width: 50rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.filter-btns-container{
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+.filter-btn{
+    width: 5rem;
+    height: 3rem;
+    font-size: 1.5rem;
+}
+.jobs-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.job-card{
+    width: 30rem;
+    height: auto;
+    padding: 1.5rem;
+    margin: 1.5rem;
+    min-width: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 1.5rem;
+    border: solid 0.2rem var(--bg-mode-secondary);
+    background-color: var(--bg-mode-secondary);
+    border-radius: 1.5rem;
+    transition: var(--transition);
+    cursor: pointer;
+
+}
+.job-card:hover{
+    background-color: var(--bg-mode-primary);
+    transform: translateY(0.5rem);
+}
+.job-card:hover .demo-btn {
+    border: solid 0.1rem var(--bg-mode-secondary);
+
+}
+.job-cta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.image-placeholder{
+    width: 100%;
+    object-fit: cover;
+    height: 20rem;
+}
+.image-placeholder img{
+    width: 100%;
+}
+.job-details{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: flex-start;
+    text-align: left;
+}

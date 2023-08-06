@@ -1,13 +1,271 @@
+:root{
+  --primary-hue: 210;
+  --gray1-hue: 120;
+  --gray2-hue: 20;
+  --gray3-hue: 220;
+  --gray4-hue: 80;
+  --gray5-hue: 10;
+  --gray-hue: 240;
+
+
+  --primary-grad: linear-gradient(to right, #45B649, #DCE35B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  --color-primary1: #45B649;
+  --color-seconday1: #F27121;
+  --color-primary3: #8A2387;
+  --color-primary4: #22c1c3;
+
+  --color-theme-btn: #45B649;
+
+  --theme-btn-1: "btn-color";
+  --theme-btn-2: "btn-color";
+  --theme-btn-3: "btn-color";
+  --theme-btn-4: "btn-color";
+  --theme-btn-5: "btn-color";
+  --theme-btn-6: "btn-color";
+  --theme-btn-7: "btn-color";
+  --theme-btn-8: "btn-color";
+  --theme-btn-9: "btn-color";
+  --theme-btn-10: "btn-color";
+
+  --bg-mode-primary: "";
+  --bg-mode-secondary: "";
+  --bg-mode-tertiary: "";
+  --mode-text-100: "";
+  --mode-text-200: "";
+
+  --color-dark-100: #242f2f;
+  --color-dark-200: #1d24248a;
+  --color-dark-300: #323e3e;
+  --color-dark-400: #030404;
+  --color-dark-500: #000000;
+
+
+  --color-light-100: hsl(var(--gray4-hue), 30%, 94%);
+  --color-light-200: rgb(145, 145, 145);
+
+  --color-light-300: white;
+
+
+
+  /* --color-primary: hsl(var(--primary-hue), 100%, 50%); */
+  --color-primary-variant: hsl(var(--primary-hue), 100%, 65%);
+  --color-secondary: #ffb116;
+  --color-gray-100: hsl(var(--gray4-hue), 30%, 94%);
+  --color-gray-200: hsl(var(--gray-hue), 26%, 75%);
+  --color-gray-300: hsl(var(--gray-hue), 24%, 64%);
+  --color-gray-400: hsl(var(--gray-hue), 16%, 41%);
+  --color-gray-500: hsl(var(--gray-hue), 44%, 25%);
+  --color-gray-600: hsl(var(--gray-hue), 48%, 15%);
+  --color-gray-700: #fff;
+
+
+
+  --container-width-lg: 80%;
+  --container-width-md: 90%;
+  
+  --transition: all 900ms ease;
+
+--grad-fallback-background: #0F2027;  /* fallback for old browsers */
+--grad-1-background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+--grad-2-background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+background: #1E9600;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FF0000, #FFF200, #1E9600);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FF0000, #FFF200, #1E9600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+background: #8A2387;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+background: #a8ff78;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+background: #009FFF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ec2F4B, #009FFF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ec2F4B, #009FFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+background: #FDC830;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+background: #40E0D0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+background: #3E5151;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #DECBA4, #3E5151);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #DECBA4, #3E5151); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+background: #3C3B3F;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #605C3C, #3C3B3F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+background: #03001e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+background: #22c1c3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fdbb2d, #22c1c3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fdbb2d, #22c1c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+background: #DCE35B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #45B649, #DCE35B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #45B649, #DCE35B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+background: #0B486B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F56217, #0B486B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F56217, #0B486B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+background: #a80077;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #66ff00, #a80077);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #66ff00, #a80077); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+background: #EECDA3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EF629F, #EECDA3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EF629F, #EECDA3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+background: #D38312;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #A83279, #D38312);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #A83279, #D38312); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+}
+html{
+  scroll-behavior: smooth;
+  font-size: 10px;
+
+}
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  text-decoration: none;
+  outline: none;
+  list-style: none;
+
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  font-family:'monterserai', 'Raleway', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+
+
+  /* font-family: 'Beau Rivage', cursive;
+font-family: 'League Script', cursive;
+font-family: 'Lilita One', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif; */
+/* font-family: 'Raleway', sans-serif; */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+
+.cards-container{
+  width: 100%;
+  
+}
+.card1{
+ 
+  min-width: 10rem;
+  
+ 
+  border-radius: 1rem;
+  
+
+  transition: var(--transition);
+  
+  cursor: pointer;
+}
+
+
+.tags{
+  font-size: 1.5rem;
+  
+}
+.godwin img{
+  width: 100%;
+}
+
+  
+.icon{
+  width: 3rem;
+  height: 3rem;
+  display: grid;
+  place-items: center;
+  
+  
+
+  border-radius: 20%;
+  
+
+  transition: var(--transition);
+
+}
+.tools{
+  font-size: 1rem;
+  text-align: center;
+}
+.text{
+
+
+  font-size: 1.7rem;
+}
+.btn{
+  width: 12rem;
+  min-width: 7rem;
+  height: 2.5rem;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  transition: var(--transition); 
+  border: solid 0.1rem var(--color-primary1);
+
+  /* background-color: color-mix(
+    in srgb,
+    green 70%,
+    white 30%
+  ); */
+  background-color: var(--color-primary1);
+  color: var(--color-gray-100);
+
+
+}
+.secondary-btn{
+  width: 8rem;
+  min-width: 5rem;
+  height: 2.5rem;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  transition: var(--transition); 
+  color: color-mix(
+    in srgb,
+    green 70%,
+    white 30%
+  );
+  border: solid 0.2rem var(--color-light-100);
+  background-color: var(--color-gray-100);
+}
+.btn:hover{
+  background-color: var(--color-light-100);
+  color: var(--color-primary1);
+
 }

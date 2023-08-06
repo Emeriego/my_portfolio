@@ -1,0 +1,178 @@
+.navbar{
+    width: 100%;
+    height: 6rem;
+    background: var(--color-primary1);
+    position: fixed;
+    
+}
+.navbar-container{
+    width: var(--container-width-lg);
+    position: relative;
+    margin-inline: auto;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2.4rem;
+    color: white;
+    padding-top: 1.5rem;
+    transform: var(--transition);
+    font-family: 'Roboto', sans-serif;
+
+    
+
+}
+.theme-container{
+    width: 20rem;
+    height: auto;
+    display: none;
+    align-items: flex-start;
+    flex-direction: column;
+    align-items:  stretch;
+    justify-content: space-between;
+    position: absolute;
+    right: 2rem;
+    top: 6rem;
+    background-color: var(--color-primary1);
+    transition: var(--transition);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 0 0 1rem 1rem;
+    
+
+}
+.show-theme-menu{
+    display: flex;
+}
+.theme-btns-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 2rem;
+    transition: var(--transition);
+
+}
+.theme-btns{
+    width: 5rem;
+    height: 5rem;
+    padding: 0.5rem;
+    border: solid 0.1rem var(--color-primary1);
+    border-radius: 1rem;
+    background-color: white;
+    /* margin: 4% auto; */
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aquamarine; */
+    font-size: 0.8rem;
+    color: var(--mode-text-100);
+    transition: var(--transition);
+    cursor: pointer;
+}
+.theme{
+    font-size: 2.5rem;
+    color: var(--mode-text-100);
+    cursor: pointer;
+    transition: var(--transition);
+
+}
+.mode-container{
+    margin-top: 2rem;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.mode-switch{
+    width: 3rem;
+    height: 1.5rem;
+    background-color: var(--bg-mode-primary);
+    border-radius: 1.4rem;
+    display: grid;
+    place-items: center;
+    position: relative;
+    cursor: pointer;
+    transition: var(--transition);
+
+
+
+}
+.mode-switch-btn{
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 0.1rem;
+    background-color: var(--color-primary1);
+    /* left: 1.6rem; */
+    transform: var(--transition);
+    cursor: pointer;
+
+    
+}
+.to-dark{
+    left: 1.6rem;
+}
+.menu{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    gap: 1.2rem;
+    cursor: pointer;
+}
+.menu a{
+    color:var(--mode-text-100);
+}
+.theme-btn{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+  }
+.btn-1{
+    background-color: var(--theme-btn-1);
+    border-radius: 1.5rem 0 0 0;
+
+}
+.btn-2{
+    background-color: var(--theme-btn-2);
+ 
+}
+.btn-3{
+    background-color: var(--theme-btn-3);
+    border-radius: 0  1.5rem 0 0;
+
+ 
+}
+.btn-4{
+    background-color: var(--theme-btn-4);
+    border-radius: 0  0 0 1.5rem;
+
+ 
+}
+.btn-5{
+    background-color: var(--theme-btn-5);
+ 
+}
+.btn-6{
+    background-color: var(--theme-btn-6);
+    border-radius: 0  0 1.5rem 0;
+
+ 
+}
+.btn-7{
+    background-color: var(--theme-btn-7);
+ 
+}
+.btn-8{
+    background-color: var(--theme-btn-8);
+ 
+}
+   
