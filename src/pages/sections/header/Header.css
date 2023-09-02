@@ -1,0 +1,13 @@
+.img-container2{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    height: 70vh;
+    background-color: var(--bg-mode-secondary);
+    margin-bottom: 0;
+
+}
+.img-container2 img{
+    width: 110%;
+    height: 119%;
+}

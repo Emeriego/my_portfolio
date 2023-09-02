@@ -4,7 +4,7 @@ import About from '../sections/about/About';
 import Contact from '../sections/contact/Contact';
 import RecentProjects from '../sections/recentProjects/RecentProjects';
 import Services from '../sections/services/Services';
-import Testimonials from '../sections/testimonials/Testimonials';
+import Testimonials from '../sections/testimonials/TestimonialSlider';
 import FAQ from '../sections/FAQ/FAQ';
     
 const Home = () =>{

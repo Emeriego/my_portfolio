@@ -3,6 +3,7 @@ import { HashLink } from 'react-router-hash-link';
 import {Aiarrowleft, AiFillEdit} from 'react-icons/ai';
 import { BrowserRouter, Link } from 'react-router-dom';
 import './Navbar.css';
+import logo from './personalLogo.png';
 import Theme from '../theme/Theme'
 
     
@@ -14,7 +15,7 @@ return (
    <div className='navbar'>
         <div className='navbar-container'>
                 <div className='logo'>
-                        <img src='' alt='site logo' />
+                        <img src={logo} alt='site logo' />
                 </div>
                 <div className='menu'>
                         <HashLink to='#header'>Header</HashLink>
