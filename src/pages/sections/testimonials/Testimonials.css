@@ -32,6 +32,8 @@
     gap: 15px;
     align-items: center;
     justify-content: space-between;
+    overflow: hidden;
+    position: relative;
 }
 .test-cards{
     width: 100%;
@@ -41,6 +43,9 @@
     align-items: center;
     justify-content: space-between;
     margin-inline: auto;
+
+    transition: transform 0.3s ease-in-out;
+    
 }
 .faded-card{
     display: block;

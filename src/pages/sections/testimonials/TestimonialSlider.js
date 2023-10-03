@@ -34,23 +34,26 @@ const TestimonialSlider = () => {
       <div className="upper-line"></div>
       <div className="test-title">What They Say About Me</div>
       <div className="card-wrapper">
-        <div className="test-cards">
-        <div className="faded-card">
+        <div className="test-cards" style={{ transform: `translateX(-${currentIndex * 50}px)` }}>
+        {/* <div className="faded-card slide">
             <TestimonialCard
+              
               Data = {prevCard}
             />
-          </div>
+          </div> */}
         
-          <div className="current-card">
+          <div className="current-card slide">
             <TestimonialCard
+              
               Data = {currentCard}
             />
           </div>
-          <div className="faded-card">
+          {/* <div className="faded-card slide">
             <TestimonialCard
+              
               Data = {nextCard}
             />
-          </div>
+          </div> */}
         </div> 
       
         

@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import './Card.css';
 
     
-const TestimonialCard = ({Data}) =>{
+const TestimonialCard = ({Data, index}) =>{
 const [st, setSt] = useState('');
 const {client, bio, profileImg, msg} = Data;
     
