@@ -1,3 +1,6 @@
+.contact-section{
+    padding-bottom: 10rem;
+}
 .about-container{
     width: 100%;
     display: flex;
@@ -30,7 +33,7 @@
     background-color: var(--color-primary1);
     font-size: 3.5rem;
     border: solid 0.2rem var(--color-primary1);
-    color: var(--mode-text-100);
+    color: var(--bg-mode-primary);
     border-radius: 1.5rem;
     transition: var(--transition);
     cursor: pointer;

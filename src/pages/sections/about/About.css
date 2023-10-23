@@ -1,5 +1,5 @@
-.about-container{
-    padding: 10rem;
+.about-section{
+    padding-bottom: 5rem;
   }
   .about-right{
     width: 50%;
@@ -7,36 +7,37 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 2rem;
+    font-size: 10px;
+    gap: 1rem;
   }
   .about-left{
-    width: 30%;
+    width: 50%;
     min-width: 30rem;
-    padding: 1.5rem;
-    height: 60vh;
+    padding: 0.5rem;
+    height: auto;
     /* border: solid 0.5rem var(--color-gray-100); */
-    border-radius: 1.5rem;
-    background-color: var(--bg-mode-secondary);
+    /* border-radius: 1.5rem; */
+    /* background-color: var(--bg-mode-secondary); */
     /* background-color: var(--color-dark-500); */
-  
-    object-fit: cover;
     transition: var(--transition);
     overflow: hidden;
   }
   .about-left:hover{
     padding: 0.4rem;
-    
   }
   .about-left img{
     width: 100%;
     height: 100%;
     transition: var(--transition);
+    object-fit: cover;
   }
   .about-left:hover img{
     border-radius: 0.8rem;
-  
   }
   .godwin{
+    font-family: 'Petemoss', serif;
+    font-size: 7rem;
+    color: var(--color-primary1);
     width: 30rem;
     object-fit: cover;
     height: 5rem;
@@ -65,29 +66,29 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
+    gap: 0.5rem;
     cursor: pointer;
   }
   .about-card1:hover{
     background-color: var(--bg-mode-primary);
     transform: translateY(0.6rem);
-    gap: 1.1rem;
-
+    gap: 0.6rem;
     /* background-color: var(--color-dark-200); */
   }
   .about-card1:hover .icon{
     background-color: var(--color-primary1);
-    color: var(--mode-text-100);
+    color: var(--bg-mode-primary);
   }
   .about-tags{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--mode-text-100);  
+    color: var(--mode-text-100);
+    margin-bottom: 0.0rem;  
   }
   .godwin img{
-    width: 100%;
+    width: 80%;
   }
   .about-body{
     display: flex;
@@ -95,7 +96,7 @@
     flex-direction: column;
     justify-content: left;
     align-items: left;
-    gap: 1.5rem;
+    gap: 2.5rem;
   }
   .about-icon{
     width: 3rem;
@@ -104,19 +105,16 @@
     place-items: center;
     background-color: var(--bg-mode-primary);
     /* background-color: var(--color-dark-100); */
-  
-    
-  
     border-radius: 20%;
     color: var(--mode-text-100);
     /* color: var(--color-light-300); */
-  
     transition: var(--transition);
-  
+
   }
   .about-tools{
     font-size: 1rem;
     text-align: center;
+    margin-top: 0;
   }
   .about-text{
     color: var(--mode-text-100);

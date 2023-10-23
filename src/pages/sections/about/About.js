@@ -2,7 +2,11 @@ import React, {useState} from 'react';
 import './About.css';
 import Name from './name.png';
 import AboutImg from './about.jpg';
-import {AiFillAlert, AiFillApple, AiFillBank} from 'react-icons/ai';
+import AboutImg2 from './hd3.png';
+import AboutImg3 from './gco3.png';
+import {AiFillAlert, AiFillApple} from 'react-icons/ai';
+import {MdJavascript, MdDataObject, MdDesktopMac} from 'react-icons/md';
+
 
 const About = () =>{
 const [st, setSt] = useState('');
@@ -12,38 +16,39 @@ return (
     <section id='about' className='section about-section'>
         <div className='section-container'>
             <div className='about-left'>
-                <img src={AboutImg} alt='About image' />
+                
+                <img src={AboutImg3} alt='About image' />
             </div>
             <div className='about-right'>
-                <div className='title'><h2></h2><div className='godwin'><img src={Name} /></div></div>
+                <div className='title'><h2>About Me,</h2><div className='godwin'><span>Godwin Ojukwu</span></div></div>
                <div className='about-body'>
 
                <div className='cards-container about-cards-container'>
                     <div className='card1 about-card1'>
-                        <div className='icon about-icon'>< AiFillApple /></div>
+                        <div className='icon about-icon'>< MdDataObject /></div>
                         <span className='tags about-tags'>
-                            FRONTEND
+                            BACKEND
                         </span>
                         <small className='tools about-tools'>
-                            React. JAVASCRIPT. HTML. CSS.
+                            Node.js. MongoDB. MySQL. Python. PHP
                         </small>
                     </div>
                     <div className='card1 about-card1'>
-                        <div className='icon about-icon'>< AiFillApple /></div>
+                        <div className='icon about-icon'>< MdJavascript /></div>
                         <span className='tags about-tags'>
                             FRONTEND
                         </span>
                         <small className='tools about-tools'>
-                            React. JAVASCRIPT. HTML. CSS.
+                            React. Javascript. HTML. Boostrap. CSS. MUI.
                         </small>
                     </div>
                     <div className='card1 about-card1'>
-                        <div className='icon about-icon'>< AiFillApple /></div>
+                        <div className='icon about-icon'>< MdDesktopMac /></div>
                         <span className='tags about-tags'>
-                            FRONTEND
+                            DESIGN
                         </span>
                         <small className='tools about-tools'>
-                            React. JAVASCRIPT. HTML. CSS.
+                            Webflow. UI/UX. Figma. CorelDraw. Photoshop.
                         </small>
                     </div>
 

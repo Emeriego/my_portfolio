@@ -1,14 +1,17 @@
+.services-section{
+    padding-bottom: 10rem;
+}
 .services-cards-container{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 2.2rem;
+    gap: 1.2rem;
 }
 .services-card1{
-    width: 40rem;
-    min-width: 10rem;
+    width: 40%;
+    min-width: 23rem;
     height: 12rem;
     border: solid 0.2rem var(--bg-mode-primary);
     /* border: solid 0.2rem var(--color-dark-500); */
@@ -59,4 +62,10 @@
     align-items: center;
     color: var(--mode-text-100);
 
+}
+@media screen and (max-width: 700px) {
+    .services-card1{
+        width: 80%;
+        height: 10rem;
+    }
 }

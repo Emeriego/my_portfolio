@@ -1,7 +1,7 @@
 const testimonialsData = [
     {
         testId: 1,
-        client: "sunnytech ltd",
+        client: "Sunnytech Ltd",
         about: "a tagline goes here",
         profileImg: "./images/prof1.jpg",
         msg: "njkkd dkjkds kk dskedf dflksdjsl djlsdlkj e dslkjdsljd sdlsdjdsjlkd dlsdkjd"

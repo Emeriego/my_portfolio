@@ -2,39 +2,60 @@ import React, { useState } from "react";
 import {FaAngleLeft, FaAngleRight} from 'react-icons/fa'
 import Data from './testimonialsData';
 import TestimonialCard from '../../../components/card/TestimonialCard';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from "react-responsive-carousel";
 import './Testimonials.css';
  // Import the card data
 
 const TestimonialSlider = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
+  // const [currentIndex, setCurrentIndex] = useState(0);
 
-  const handlePrevClick = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? Data.length - 1 : prevIndex - 1
-    );
-  };
+  // const handlePrevClick = () => {
+  //   setCurrentIndex((prevIndex) =>
+  //     prevIndex === 0 ? Data.length - 1 : prevIndex - 1
+  //   );
+  // };
 
-  const handleNextClick = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === Data.length - 1 ? 0 : prevIndex + 1
-    );
-  };
+  // const handleNextClick = () => {
+  //   setCurrentIndex((prevIndex) =>
+  //     prevIndex === Data.length - 1 ? 0 : prevIndex + 1
+  //   );
+  // };
 
-  const currentCard = Data[currentIndex];
+  // const currentCard = Data[currentIndex];
   
-  const prevCard = Data[
-    (currentIndex - 1) < 0 ? Data.length - 1 : currentIndex - 1
-  ];
-  const nextCard = Data[
-    currentIndex + 1 > Data.length - 1 ? 0 : currentIndex + 1
-  ];
+  // const prevCard = Data[
+  //   (currentIndex - 1) < 0 ? Data.length - 1 : currentIndex - 1
+  // ];
+  // const nextCard = Data[
+  //   currentIndex + 1 > Data.length - 1 ? 0 : currentIndex + 1
+  // ];
 
   return (
-    <div className="card-slider">
+    <div id="testimonials" className="card-slider">
       <div className="upper-line"></div>
       <div className="test-title">What They Say About Me</div>
       <div className="card-wrapper">
-        <div className="test-cards" style={{ transform: `translateX(-${currentIndex * 50}px)` }}>
+      <Carousel 
+          emulateTouch = {true}
+          showArrows={true}
+          infiniteLoop={true}
+          showThumbs={true}
+          showStatus={true}
+          autoPlay={true}
+          interval={3100}
+      >
+        {
+          Data.map((testy, index) =>{
+            return(
+                <TestimonialCard 
+                  testy = {testy}
+                  index = {index}
+                />
+            )
+          })
+        }
+        
         {/* <div className="faded-card slide">
             <TestimonialCard
               
@@ -42,32 +63,23 @@ const TestimonialSlider = () => {
             />
           </div> */}
         
-          <div className="current-card slide">
+          {/* <div className="current-card slide">
             <TestimonialCard
               
               Data = {currentCard}
             />
-          </div>
+          </div> */}
           {/* <div className="faded-card slide">
             <TestimonialCard
               
               Data = {nextCard}
             />
           </div> */}
-        </div> 
       
         
-      <div className="test-btns">
-        <div className="prev">
-          <span onClick={handlePrevClick}><FaAngleLeft /></span>
-
-        </div>
-        <div className="next">
-          <span onClick={handleNextClick}><FaAngleRight /></span>
-
-      </div>
-      </div>
       
+        </Carousel>
+
       </div>
     </div>
   );

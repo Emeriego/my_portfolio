@@ -2,21 +2,21 @@ import React, {useState} from 'react';
 import './Card.css';
 
     
-const TestimonialCard = ({Data, index}) =>{
+const TestimonialCard = ({testy, index}) =>{
 const [st, setSt] = useState('');
-const {client, bio, profileImg, msg} = Data;
+const {client, bio, profileImg, msg} = testy;
     
    
 return (
 <div className='test'>
-    <div className='card-wrapper'>
+    <div className='card-wrappe'>
         <div className='msg-body'>
 
         </div>
         <div className='header'>
             <div className='profile'>{client}</div>
-            <div className='client'></div>
-            <div className='bio'>{}</div>
+            <div className='client'>{bio}</div>
+            <div className='bio'>{msg}</div>
         </div>
 
     </div>

@@ -1,13 +1,20 @@
+.section-container-abt{
+    
+/* height: auto; */
+width: 100%;
+}
 .img-container2{
-    display: block;
-    width: 100%;
-    object-fit: cover;
-    height: 70vh;
-    background-color: var(--bg-mode-secondary);
+    padding-bottom: 0;
     margin-bottom: 0;
+    /* display: block; */
+    width: 100%;
+    height: auto;
+    /* object-fit: cover; */
+    background-color: var(--bg-mode-secondary);
 
 }
 .img-container2 img{
-    width: 110%;
-    height: 119%;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }

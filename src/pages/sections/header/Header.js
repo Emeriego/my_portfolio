@@ -8,7 +8,7 @@ const [st, setSt] = useState('');
     
 return (
     <section id='header' className='section header-section'>
-        <div className='section-container'>
+        <div className='section-container-hdr'>
             <div className='img-container2'>
              <img src={headerImage} />
 

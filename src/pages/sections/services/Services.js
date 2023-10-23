@@ -15,7 +15,7 @@ return (
                     <div className='card1 services-card1'>
                         <div className='icon services-icon'>< AiFillApple /></div>
                         <span className='tags services-tag'>
-                            FRONTEND
+                            WEB DEVELOPMENT
                         </span>
                         <small className='tools'>
                             React. JAVASCRIPT. HTML. CSS.
@@ -24,7 +24,7 @@ return (
                     <div className='card1 services-card1'>
                         <div className='icon services-icon'>< AiFillApple /></div>
                         <span className='tags services-tag'>
-                            FRONTEND
+                            USER INTERFACE DESIGN (UI/UX)
                         </span>
                         <small className='tools'>
                             React. JAVASCRIPT. HTML. CSS.
@@ -33,7 +33,7 @@ return (
                     <div className='card1 services-card1'>
                         <div className='icon services-icon'>< AiFillApple /></div>
                         <span className='tags services-tag'>
-                            FRONTEND
+                            GRAPHICS DESIGN
                         </span>
                         <small className='tools'>
                             React. JAVASCRIPT. HTML. CSS.
@@ -42,7 +42,7 @@ return (
                     <div className='card1 services-card1'>
                         <div className='icon services-icon'>< AiFillApple /></div>
                         <span className='tags services-tag'>
-                            FRONTEND
+                            WEBFLOW
                         </span>
                         <small className='tools'>
                             React. JAVASCRIPT. HTML. CSS.
