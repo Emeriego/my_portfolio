@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './FaqCard.css';
-import { AiOutlineMinus, AiOutlinePlus} from 'react-icons/ai';
+import { FaAngleDoubleDown, FaAngleDoubleUp} from 'react-icons/fa';
 
 const FaqCard = ({faqitem}) => {
     const [openFaq, setOpenFaq] = useState(false);
@@ -18,9 +18,9 @@ const FaqCard = ({faqitem}) => {
                 <button className='toggle-btn' >
                     {
                     openFaq? 
-                    <AiOutlineMinus />
+                    <FaAngleDoubleUp />
                     :
-                    <AiOutlinePlus />
+                    <FaAngleDoubleDown />
                     }
                 </button>
                 

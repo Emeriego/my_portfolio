@@ -1,8 +1,8 @@
 .about-section{
-    padding-bottom: 5rem;
+    padding-bottom: 8rem;
   }
   .about-right{
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,7 +13,7 @@
   .about-left{
     width: 50%;
     min-width: 30rem;
-    padding: 0.5rem;
+    padding: 2.5rem;
     height: auto;
     /* border: solid 0.5rem var(--color-gray-100); */
     /* border-radius: 1.5rem; */
@@ -23,7 +23,7 @@
     overflow: hidden;
   }
   .about-left:hover{
-    padding: 0.4rem;
+    padding: 1.4rem;
   }
   .about-left img{
     width: 100%;
@@ -34,33 +34,34 @@
   .about-left:hover img{
     border-radius: 0.8rem;
   }
+  .title{
+    font-size: 1.3rem;
+}
   .godwin{
     font-family: 'Petemoss', serif;
     font-size: 7rem;
     color: var(--color-primary1);
-    width: 30rem;
-    object-fit: cover;
+    width: 40rem;
     height: 5rem;
     margin-bottom: 1.9rem;
-    z-index: 1000;
+    z-index: 0;
   }
   .about-cards-container{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1.0rem;
   }
   .about-card1{
-    width: 26%;
+    width: 22%;
     min-width: 10rem;
-    height: 12rem;
+    height: 10rem;
     border: solid 0.2rem var(--bg-mode-secondary);
     /* border: solid 0.2rem var(--color-dark-500); */
     border-radius: 1rem;
     /* background-color: var(--color-dark-500); */
     background-color: var(--bg-mode-secondary);
-  
     transition: var(--transition);
     display: flex;
     flex-direction: column;
@@ -75,16 +76,13 @@
     gap: 0.6rem;
     /* background-color: var(--color-dark-200); */
   }
-  .about-card1:hover .icon{
-    background-color: var(--color-primary1);
-    color: var(--bg-mode-primary);
-  }
+  
   .about-tags{
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--mode-text-100);
+    color: var(--color-primary1);
     margin-bottom: 0.0rem;  
   }
   .godwin img{
@@ -107,18 +105,31 @@
     /* background-color: var(--color-dark-100); */
     border-radius: 20%;
     color: var(--mode-text-100);
-    /* color: var(--color-light-300); */
+    font-size: 2.4rem;
     transition: var(--transition);
 
   }
+  .about-card1:hover .about-icon{
+    background-color: var(--color-primary1);
+    color: var(--bg-mode-primary);
+    font-size: 1.5rem;
+  }
   .about-tools{
-    font-size: 1rem;
+    font-size: 0.8rem;
     text-align: center;
     margin-top: 0;
   }
   .about-text{
+    width: 80%;
     color: var(--mode-text-100);
     /* color: var(--color-light-200); */
   
-    font-size: 1.7rem;
+    font-size: 1.3rem;
+  }
+  .about-text::first-letter {
+    color: var(--color-primary1);
+    float: left;
+    font-size: 7rem;
+    margin: 0 .6rem 0 0;
+    line-height: 0.85;
   }

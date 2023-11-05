@@ -30,18 +30,19 @@ const TestimonialSlider = () => {
   // const nextCard = Data[
   //   currentIndex + 1 > Data.length - 1 ? 0 : currentIndex + 1
   // ];
-
   return (
     <div id="testimonials" className="card-slider">
       <div className="upper-line"></div>
-      <div className="test-title">What They Say About Me</div>
-      <div className="card-wrapper">
+      <div className="testimonial-title">What They Say About Me</div>
+      <div className="cards">
       <Carousel 
+          // centerMode
+          // centerSlidePercentage={70}
           emulateTouch = {true}
           showArrows={true}
           infiniteLoop={true}
-          showThumbs={true}
-          showStatus={true}
+          showThumbs={false}
+          showStatus={false}
           autoPlay={true}
           interval={3100}
       >
@@ -50,7 +51,7 @@ const TestimonialSlider = () => {
             return(
                 <TestimonialCard 
                   testy = {testy}
-                  index = {index}
+                  index = {index + 1}
                 />
             )
           })

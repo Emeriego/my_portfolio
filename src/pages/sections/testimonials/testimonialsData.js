@@ -1,49 +1,55 @@
 const testimonialsData = [
     {
         testId: 1,
-        client: "Sunnytech Ltd",
-        about: "a tagline goes here",
-        profileImg: "./images/prof1.jpg",
+        name: "Mr. Mathias Sunday",
+        client: "UnicalPress Ltd",
+        about: "MD",
+        profileImg: "prof1.jpg",
         msg: "njkkd dkjkds kk dskedf dflksdjsl djlsdlkj e dslkjdsljd sdlsdjdsjlkd dlsdkjd"
 
     },
     {
         testId: 2,
-        client: "UnicalPress Ltd",
-        about: "a tagline goes here",
-        profileImg: "./images/prof1.jpg",
+        name: "Mr. Wisdom Ekanem",
+        client: "SunnytechLink Ltd",
+        about: "Manager",
+        profileImg: "prof1.jpg",
         msg: "njkkd dkjkds kk dskedf dflksdjsl djlsdlkj e dslkjdsljd sdlsdjdsjlkd dlsdkjd"
 
     },
     {
         testId: 3,
-        client: "Akankpa Journals",
-        about: "a tagline goes here",
-        profileImg: "./images/prof1.jpg",
+        name: "Dr. Sunny",
+        client: "Akankpa Journals, Akankpa College of Education",
+        about: "Team Lead",
+        profileImg: "prof1.jpg",
         msg: "njkkd dkjkds kk dskedf dflksdjsl djlsdlkj e dslkjdsljd sdlsdjdsjlkd dlsdkjd"
 
     },
     {
         testId: 4,
-        client: "Mr Agu",
-        about: "a designation goes here",
-        profileImg: "./images/prof1.jpg",
+        name: "Mr. Agu",
+        client: "Agu NGO",
+        about: "CEO",
+        profileImg: "prof1.jpg",
         msg: "njkkd dkjkds kk dskedf dflksdjsl djlsdlkj e dslkjdsljd sdlsdjdsjlkd dlsdkjd"
 
     },
     {
         testId: 4,
-        client: "Prof. Akpan",
-        about: "a designation goes here",
-        profileImg: "./images/prof1.jpg",
+        name: "Prof Anthony Akpan",
+        client: "ICT Directorate, Unical",
+        about: "Director",
+        profileImg: "prof1.jpg",
         msg: "njkkd dkjkds kk dskedf dflksdjsl djlsdlkj e dslkjdsljd sdlsdjdsjlkd dlsdkjd"
 
     },
     {
         testId: 4,
-        client: "Prof. Umoh",
-        about: "a designation goes here",
-        profileImg: "./images/prof1.jpg",
+        name: "Prof Umoh",
+        client: "UCTH",
+        about: "Consultant",
+        profileImg: "prof1.jpg",
         msg: "njkkd dkjkds kk dskedf dflksdjsl djlsdlkj e dslkjdsljd sdlsdjdsjlkd dlsdkjd"
 
     }

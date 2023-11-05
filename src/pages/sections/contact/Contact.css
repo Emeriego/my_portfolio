@@ -1,5 +1,7 @@
 .contact-section{
-    padding-bottom: 10rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: rgb(49, 47, 47) !important;
 }
 .about-container{
     width: 100%;
@@ -9,14 +11,21 @@
     justify-content: space-between;
 }
 .header{
+    color: #aaa !important;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
     align-items: center;
     justify-content: center;
     text-align: center;
-
-
+}
+.header h2{
+    /* font-family: 'Petemoss'; */
+    font-size: 2rem;
+    font-weight: 500;
+}
+.header p{
+    font-size: 1.5rem;
 }
 .contact-btns{
     display: flex;
@@ -25,23 +34,25 @@
     gap: 1.8rem;
 }
 .contact-btn{
-    width: 8rem;
-    height: 10rem;
+    width: 5rem;
+    height: 6rem;
     display: grid;
     place-items: center;
-    padding: 1.3rem;
+    padding: 0.6rem;
     background-color: var(--color-primary1);
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     border: solid 0.2rem var(--color-primary1);
     color: var(--bg-mode-primary);
-    border-radius: 1.5rem;
+    border-radius: 0.5rem;
     transition: var(--transition);
     cursor: pointer;
+    margin-top: 2rem;
 }
+
 .contact-btn:hover{
-    width: 10rem;
-    height: 8rem;
-    transform: translateY(0.3rem);
+    width: 5.5rem;
+    height: 6rem;
+    transform: translateY(0.2rem);
     background-color: var(--bg-mode-primary);
     color: var(--mode-text-100);
     

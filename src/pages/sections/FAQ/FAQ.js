@@ -5,7 +5,7 @@ import FaqCard from '../../../components/faqCard/FaqCard';
 const FAQ = () =>{
 const [st, setSt] = useState('');
     
-    
+
 return (
 <section id='FAQ' className='section FAQ-section'>
         <div className='section-container faqs-container'>

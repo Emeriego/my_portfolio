@@ -13,6 +13,8 @@
     width: 40%;
     min-width: 23rem;
     height: 12rem;
+    flex-grow: 1;
+    flex-basis: 200;
     border: solid 0.2rem var(--bg-mode-primary);
     /* border: solid 0.2rem var(--color-dark-500); */
     border-radius: 1rem;

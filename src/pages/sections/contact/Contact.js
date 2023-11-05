@@ -16,7 +16,6 @@ import {
 const Contact = () =>{
 const [st, setSt] = useState('');
     
-    
 return (
     <section id='contact' className='section contact-section'>
         <div className='section-container about-container'>
