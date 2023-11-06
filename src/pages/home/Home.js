@@ -6,6 +6,7 @@ import RecentProjects from '../sections/recentProjects/RecentProjects';
 import Services from '../sections/services/Services';
 import Testimonials from '../sections/testimonials/TestimonialSlider';
 import FAQ from '../sections/FAQ/FAQ';
+import ScrollBtn from '../../components/scrollBtn/ScrollBtn'
     
 const Home = () =>{
 const [st, setSt] = useState('');
@@ -25,6 +26,7 @@ return (
         <FAQ />
         <Contact />
         <Testimonials />
+        <ScrollBtn />
 
     </div>
 
