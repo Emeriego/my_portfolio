@@ -14,10 +14,11 @@ const [st, setSt] = useState('');
     
 return (
     <section id='about' className='section about-section'>
-        <div className='section-container'>
+        <div className='about-section-container'>
             <div className='about-left'>
                 
                 <img src={AboutImg3} alt='About image' />
+                <button className='btn sm-download-btn'>Download CV</button>
             </div>
             <div className='about-right'>
                 <div className='title'><h2>About Me,</h2><div className='godwin'><span>Godwin Ojukwu</span></div></div>

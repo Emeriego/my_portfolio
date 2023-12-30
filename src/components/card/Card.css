@@ -63,7 +63,7 @@
     letter-spacing: 120%;
 }
 .cust-img{
-    width: 4rem;
+    max-width: 4rem;
     height: 4rem;
     background-color: var(--color-primary1);
     border-radius: 50%;

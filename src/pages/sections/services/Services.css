@@ -27,12 +27,15 @@
     justify-content: center;
     gap: 1rem;
     cursor: pointer;
+
 }
 .services-card1:hover{
     background-color: var(--bg-mode-secondary);
     transform: translateY(1rem);
     /* background-color: var(--color-dark-200); */
     gap: 1.2rem;
+    box-shadow: 12px 10px 15px -3px rgba(0,0,0,0.1);
+
 }
 
 

@@ -59,6 +59,7 @@
     /* background-color: bisque; */
     padding: 50px;
 }
+
 .upper-line{
     width: 150px;
     height: 10px;
@@ -69,12 +70,13 @@
     text-transform: uppercase;
     font-size: 28px;
     font-weight: 400;
+    text-align: center;
     margin-inline: auto;
     color: var(--mode-text-200);
 }
 .cards{
     width: 60%;
-    height: 60%;
+    height: auto;
     margin-inline: auto;
 }
 
@@ -92,4 +94,27 @@
     margin-inline: auto;
     background-color: var(--color-primary1);
 }
+@media screen and (max-width: 840px){
+  .card-slider{
+    padding: 20px;
 
+  }
+  .cards{
+    width: 80%;
+    height: auto;
+    margin-inline: auto;
+}
+}
+
+@media screen and (max-width: 414px){
+  .card-slider{
+    padding: 20px;
+    padding-top: 5rem;
+
+  }
+  .cards{
+    width: 100%;
+    height: auto;
+    margin-inline: auto;
+}
+}
