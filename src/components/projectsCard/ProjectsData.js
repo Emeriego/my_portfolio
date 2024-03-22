@@ -124,6 +124,24 @@ const Data = [
         title: 'Title 12',
         desc: 'Describe jkhKj hkjzHk uzisuhdi zhkHish hshx xusu ZHzH k khzj lolo..',
         repo: 'github.com/emerie'
+    },
+    {
+        pid: 13,
+        category: 'Angular',
+        tools:['React', 'Javascript', 'HTML', 'CSS'],
+        image: 'p2.jpeg',
+        title: 'Title 2',
+        desc: 'Describe jkhKj hkjzHk uzisuhdi zhkHish hshx xusu ZHzH k khzj lolo..',
+        repo: 'github.com/emerie'
+    },
+    {
+        pid: 14,
+        category: 'Angular',
+        tools:['Figma', 'Photoshop', 'CorelDraw', 'Sketch'],
+        image: 'p3.jpeg',
+        title: 'Title 3',
+        desc: 'Describe jkhKj hkjzHk uzisuhdi zhkHish hshx xusu ZHzH k khzj lolo..',
+        repo: 'github.com/emerie'
     }
 ]
 

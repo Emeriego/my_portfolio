@@ -14,23 +14,6 @@ const colorThemes = [
         id: 3,
         primaryColor: "#8A2387",
         name: "berries"
-    },
-    {
-        id: 4,
-        primaryColor: "#009FFF",
-        name: "cologne"
-    },
-    {
-        id: 5,
-        primaryColor: "#939495",
-        name: "purply"
-    },
-    
-  
-    {
-        id: 6,
-        primaryColor: "#009aaa",
-        name: "dusty"
     }
 ]
 

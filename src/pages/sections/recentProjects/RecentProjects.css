@@ -13,6 +13,7 @@
     flex-direction: column;
     gap: 1.5rem;
 }
+
 .filter-btns-container{
     display: flex;
     flex-direction: row;
@@ -20,12 +21,47 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    width: auto;
+    height: auto;
+    background-color: var(--mode-text-200);
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+
     
 }
+/* i just realized there has to be space between the selector name and some of the pseudo selectors
+for it to work */
+.filter-btns-container :last-child :last-child {
+    display: none;
+}
+.btn-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-divider{
+    width: 1px;
+    height: 8px;
+    background-color: var(--bg-mode-secondary);
+    margin-left: 10px;
+}
 .filter-btn{
-    width: 5rem;
-    height: 3rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    background-color: transparent;
+    color: var(--bg-mode-secondary);
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.filter-btns-container a:hover{
+    color: var(--color-primary1);
+
+}
+.btn-active{
+    color: var(--color-primary1);
+    font-weight: 700;
+    /* font-size: 1.1rem; */
+
 }
 .jobs-container{
     display: flex;

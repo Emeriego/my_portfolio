@@ -1,8 +1,5 @@
 import React, {useState} from 'react';
 import './About.css';
-import Name from './name.png';
-import AboutImg from './about.jpg';
-import AboutImg2 from './hd3.png';
 import AboutImg3 from './gco3.png';
 import {AiFillAlert, AiFillApple} from 'react-icons/ai';
 import {MdJavascript, MdDataObject, MdDesktopMac} from 'react-icons/md';
@@ -10,7 +7,6 @@ import {MdJavascript, MdDataObject, MdDesktopMac} from 'react-icons/md';
 
 const About = () =>{
 const [st, setSt] = useState('');
-    
     
 return (
     <section id='about' className='section about-section'>
@@ -52,7 +48,15 @@ return (
                             Webflow. UI/UX. Figma. CorelDraw. Photoshop.
                         </small>
                     </div>
-
+                    <div className='card1 about-card1'>
+                        <div className='icon about-icon'>< MdDesktopMac /></div>
+                        <span className='tags about-tags'>
+                            DESIGN
+                        </span>
+                        <small className='tools about-tools'>
+                            Webflow. UI/UX. Figma. CorelDraw. Photoshop.
+                        </small>
+                    </div>
                 </div>
                 <div className='about-text'>
                     <p>Versatile Graphics Designer, proficient in the use of modern creative design tools like Corel Draw X7, Adobe Illustrator CS6,

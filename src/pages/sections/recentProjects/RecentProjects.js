@@ -5,7 +5,8 @@ import './RecentProjects.css';
     
 const RecentProjects = () =>{
 const [jobsToShow, setJobsToShow] = useState([]);
-const [categories, setCategories] = useState([])
+const [categories, setCategories] = useState([]);
+const [activeCategory, setActiveCategory] = useState("All");
 // const [category, setCategory] = useState('All');
     
     
@@ -23,7 +24,7 @@ useEffect(()=>{
 },[])
 
 const FilterJobs = (category)=>{
-    // setCategory(category);
+    setActiveCategory(category);
     const filteredData = Data.filter(job => job.category === category);
     category === 'All'? setJobsToShow(Data) : setJobsToShow(filteredData);
 }
@@ -39,7 +40,12 @@ return (
                 
                 categories.map(category=>{
                     return (
-                        <button className='btn filter-btn' onClick={()=>FilterJobs(category)}>{category}</button>
+                        <div className='btn-wrap'>
+                        <a className={`filter-btn ${activeCategory == category? "btn-active" : ""} `} onClick={()=>FilterJobs(category)} >{category}</a>
+                        <div className="btn-divider"></div>
+                        </div>
+                        
+
                     )
                 })
             }

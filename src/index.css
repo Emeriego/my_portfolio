@@ -227,12 +227,10 @@ code {
   font-size: 1.7rem;
 }
 .btn{
-  width: 12rem;
-  min-width: 7rem;
-  height: 2.5rem;
-  padding-left: 0.6rem;
-  padding-right: 0.6rem;
-  border-radius: 1rem;
+  width: 150px;
+  height: 40px;
+  padding: 0 24px;
+  border-radius: 20px;
   font-size: 1.2rem;
   transition: var(--transition); 
   border: solid 0.1rem var(--color-primary1);

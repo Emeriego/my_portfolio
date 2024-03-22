@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { AiFillEdit } from 'react-icons/ai';
 import { FaMoon, FaSun } from 'react-icons/fa';
+import ThemeIcon from './theme.png';
 
 import themeData from './themeData'
 import modeThemesData from './modeThemesData';
@@ -60,12 +61,18 @@ const Theme = () => {
 
   return (
     <>
- <div className='theme' onClick={()=> setShowThemeMenu(prev => !prev)}>
-        
-        <AiFillEdit />
+    <div className="theme-wrap">
+      <div className='theme-h' onClick={()=> setShowThemeMenu(prev => !prev)}>
+        <div className="theme">
+        <img src={ThemeIcon} />
 
-</div>
-<div className={`theme-container ${showThemeMenu && "show-theme-menu"}`}>
+        </div>
+        <span>Theme</span>
+
+
+      </div>  
+
+      <div className={`theme-container ${showThemeMenu && "show-theme-menu"}`}>
 
 <div className='mode-container' >
   <FaSun />
@@ -85,7 +92,6 @@ const Theme = () => {
                   <div className='theme-btns' onClick={()=> {setShowThemeMenu(false); switchTheme(color.primaryColor) }}>
 
                       <button className={`theme-btn btn-${index+1}`}  ></button>
-                      <span>{color.name}</span>
                   </div>
 )
 
@@ -95,6 +101,9 @@ const Theme = () => {
 
   
   </div>
+    </div>
+ 
+
     </>
   
    

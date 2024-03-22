@@ -21,7 +21,7 @@ const ScrollBtn = () => {
     return (
         <>
         {scrollHeight > 2000?
-        <HashLink to='#header'>
+        <HashLink to='#simple-header'>
             <div className="float-btn">
                 <FaArrowAltCircleUp />
             </div>

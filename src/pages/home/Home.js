@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import Header from '../sections/header/Header';
+import SimpleHeader from '../sections/SimpleHeader/SimpleHeader';
 import About from '../sections/about/About';
 import Contact from '../sections/contact/Contact';
 import RecentProjects from '../sections/recentProjects/RecentProjects';
@@ -9,7 +9,6 @@ import FAQ from '../sections/FAQ/FAQ';
 import ScrollBtn from '../../components/scrollBtn/ScrollBtn'
     
 const Home = () =>{
-const [st, setSt] = useState('');
     
 
 
@@ -19,7 +18,8 @@ const [st, setSt] = useState('');
     
 return (
     <div className='home-container'>
-        <Header />
+        {/* <Header /> */}
+        <SimpleHeader />
         <About />
         <Services />
         <RecentProjects />

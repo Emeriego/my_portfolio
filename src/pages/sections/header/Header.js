@@ -3,7 +3,6 @@ import headerImage from './Thumbnail.png';
 import './Header.css';
     
 const Header = () =>{
-const [st, setSt] = useState('');
     
     
 return (
