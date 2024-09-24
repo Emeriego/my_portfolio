@@ -16,12 +16,17 @@
 .section-container{
   width: var(--container-width-lg);
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   margin-inline: auto;
   font-size: 2rem;
   /* margin-top: 10rem; */
   /* gap: 5rem; */
+}
+.section-title{
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
 }
 section:nth-child(even){
   background-color: var(--bg-mode-primary);

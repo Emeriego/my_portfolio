@@ -20,13 +20,14 @@ return (
                 <div className='title'><h2>About Me,</h2><div className='godwin'><span>Godwin Ojukwu</span></div></div>
                <div className='about-body'>
 
+
                <div className='cards-container about-cards-container'>
-                    <div className='card1 about-card1'>
+                    <div className='card13 about-card1'>
                         <div className='icon about-icon'>< MdDataObject /></div>
                         <span className='tags about-tags'>
                             BACKEND
                         </span>
-                        <small className='tools about-tools'>
+                        <small className='about-tools'>
                             Node.js. MongoDB. MySQL. Python. PHP
                         </small>
                     </div>
@@ -35,7 +36,7 @@ return (
                         <span className='tags about-tags'>
                             FRONTEND
                         </span>
-                        <small className='tools about-tools'>
+                        <small className='about-tools'>
                             React. Javascript. HTML. Boostrap. CSS. MUI.
                         </small>
                     </div>
@@ -44,7 +45,7 @@ return (
                         <span className='tags about-tags'>
                             DESIGN
                         </span>
-                        <small className='tools about-tools'>
+                        <small className='about-tools'>
                             Webflow. UI/UX. Figma. CorelDraw. Photoshop.
                         </small>
                     </div>
