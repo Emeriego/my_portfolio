@@ -1,0 +1,33 @@
+.circular-progress-container {
+  position: relative;
+  width: 73px;
+  height: 73px;
+}
+
+.circular-progress-svg {
+  transform: rotate(-90deg);
+}
+
+.circular-progress-bg {
+  stroke: var(--bg-mode-secondary);
+  /* background-color: var(--bg-mode-secondary); */
+
+}
+
+.circular-progress-bar {
+  stroke: #f97316;
+  transition: stroke-dashoffset 0.35s;
+  transform: rotate(0.25turn);
+  transform-origin: center;
+}
+
+.circular-progress-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem; /* Adjust size as needed */
+  font-weight: 700;
+  color: var(--mode-text-100);
+  text-align: center;
+}

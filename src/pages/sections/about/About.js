@@ -48,15 +48,6 @@ return (
                             Webflow. UI/UX. Figma. CorelDraw. Photoshop.
                         </small>
                     </div>
-                    <div className='card1 about-card1'>
-                        <div className='icon about-icon'>< MdDesktopMac /></div>
-                        <span className='tags about-tags'>
-                            DESIGN
-                        </span>
-                        <small className='tools about-tools'>
-                            Webflow. UI/UX. Figma. CorelDraw. Photoshop.
-                        </small>
-                    </div>
                 </div>
                 <div className='about-text'>
                     <p>Versatile Graphics Designer, proficient in the use of modern creative design tools like Corel Draw X7, Adobe Illustrator CS6,

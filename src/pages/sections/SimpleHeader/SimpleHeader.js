@@ -19,8 +19,8 @@ return (
             </div>
             <div className='SimpleHeader-right'>
                 <div className='title'>
-                    <h2>As Leonardo da Vinci once said,</h2>
-                    <div className='SimpleHeader-godwin'><span>simplicity is the ultimate sophistication</span></div></div>
+                    <h2>My solutions are crafted to be,</h2>
+                    <div className='SimpleHeader-godwin'><span>Secured, High-Performing and Simple</span></div></div>
                <div className='SimpleHeader-body'>
                
                 <div className='SimpleHeader-text'>
@@ -30,6 +30,7 @@ return (
                 </div>
                 <button className='btn download-btn'>Explore My Work</button>
             </div>
+            
                </div>
                 
         </div>

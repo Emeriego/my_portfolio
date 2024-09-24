@@ -10,8 +10,8 @@
     gap: 1.2rem;
 }
 .services-card1{
-    width: 40%;
-    min-width: 23rem;
+    width: 30%;
+    min-width: 15rem;
     height: 12rem;
     flex-grow: 1;
     flex-basis: 200;
@@ -22,11 +22,12 @@
     background-color: var(--bg-mode-primary);
     transition: var(--transition);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 1rem;
     cursor: pointer;
+    padding: 1.5rem;
 
 }
 .services-card1:hover{
@@ -38,7 +39,19 @@
 
 }
 
-
+.inner1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 1rem;
+}
+.inner2{
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    gap: 1rem;
+}
 .services-icon{
     width: 3rem;
     height: 3rem;
@@ -64,7 +77,22 @@
     font-size: 1.5rem;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
+    color: var(--mode-text-100);
+
+}
+.services-tag{
+    font-size: 1.5rem;
+    text-align: left;
+    justify-content: center;
+    align-items: start;
+    color: var(--mode-text-100);
+
+}
+.tools{
+    text-align: left;
+    justify-content: center;
+    align-items: start;
     color: var(--mode-text-100);
 
 }
