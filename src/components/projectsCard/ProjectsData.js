@@ -44,7 +44,7 @@ const Data = [
         category: 'Backend',
         tools:['NodeJs', 'Express', 'Postgres','Javascript', 'Typescript'],
         image: 'laundbot.png',
-        title: 'Laundbot Client',
+        title: 'Laundbot API',
         desc: 'Laundbot is a fullstack application that allows users to book laundry services online. It is built with Nextjs, Typescript, Node.js (Express) and Postgres. It has a RESTful API and a payment gateway integration. The app is domiciled on two repositories, one for the frontend and the other for the backend.',
         repo: 'https://github.com/Emeriego/laundbot-api',  
         live: 'https://laundbot-client.vercel.app/'

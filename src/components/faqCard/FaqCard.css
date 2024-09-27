@@ -16,14 +16,16 @@
     flex-basis: 200;
     gap: 0.5rem;
     padding: 1.7rem;
-    background-color: var(--bg-mode-primary);
+    background-color: var(--bg-mode-secondary);
     border: solid 0.2rem var(--bg-mode-primary);
     border-radius: 1.5rem;
     transition: var(--transition);
     cursor: pointer;
 }
 .faq-container:hover{
-    background-color: var(--bg-mode-secondary);
+    background-color: var(--bg-mode-primary);
+    border: solid 0.2rem var(--bg-mode-secondary);
+
     transform: translateY(0.4rem);
 }
 .faq-container:hover toggle-btn{

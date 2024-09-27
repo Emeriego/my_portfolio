@@ -8,7 +8,7 @@ import modeThemesData from './modeThemesData';
 
 const Theme = () => {
   const [btnColor, setBtnColor] = useState([]);
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
   const [showThemeMenu, setShowThemeMenu] = useState(false);
   const [mode, setMode] = useState({})
 
@@ -16,7 +16,7 @@ const Theme = () => {
   useEffect(()=>{
     setBtnColor([]);
 
-    const defaultMode = modeThemesData.filter(light =>light.name === "light");
+    const defaultMode = modeThemesData.filter(light =>light.name === "dark");
     setMode(defaultMode);
     defaultMode.map(m=>{
       document.documentElement.style.setProperty(`--bg-mode-primary`, m.primaryColor);
