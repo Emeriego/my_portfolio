@@ -136,7 +136,7 @@ const Data = [
         tools:['Python', 'Postgres', 'Redis', 'NodeJs', 'Javascript', 'Typescript', 'html'],
         image: 'placeholder.png',
         title: 'Series of programming tasks',
-        desc: '',
+        desc: 'This a series of several programming tasks, from data structure to database, to object oriented programming.',
         repo: 'https://github.com/Emeriego/alx-higher_level_programming'
     },
     {
