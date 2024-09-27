@@ -2,7 +2,7 @@ import React from 'react';
 import './circularProgress.css'; // Ensure CSS is imported
 
 const CircularProgress = ({ fulfilled, total }) => {
-  const size = 73; // Size of the square containing the circle
+  const size = 63; // Size of the square containing the circle
   const stroke = 10; // Stroke width of the circle
   const radius = (size - stroke) / 2; // Radius of the circle
   const circumference = radius * 2 * Math.PI; // Circumference of the circle

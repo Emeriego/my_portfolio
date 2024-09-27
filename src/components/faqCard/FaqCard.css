@@ -1,8 +1,8 @@
 .faqs-container{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     height: auto;
-    margin-top: 10rem;
     margin-bottom: 10rem;
     gap: 2rem;
 

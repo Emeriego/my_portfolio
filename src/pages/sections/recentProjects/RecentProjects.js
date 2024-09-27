@@ -37,7 +37,6 @@ return (
             </div>
             <div className='filter-btns-container'>
             {
-                
                 categories.map(category=>{
                     return (
                         <div className='btn-wrap'>

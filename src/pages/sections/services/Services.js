@@ -1,7 +1,15 @@
 import React, { useState } from 'react';
-import { AiFillGithub, AiFillApple } from 'react-icons/ai';
-import { FaAppStoreIos, FaCodeBranch, FaDocker } from "react-icons/fa6";
+import { AiFillGithub, AiOutlineHtml5, AiOutlineJavaScript } from 'react-icons/ai';
+import { FaAppStoreIos, FaCodeBranch, FaDocker, FaPython, FaFigma, FaNodeJs, FaLinux} from "react-icons/fa6";
 import { FaAtom } from "react-icons/fa6";
+import { BiLogoTailwindCss, BiLogoPostgresql, BiLogoTypescript} from "react-icons/bi";
+import { DiIllustrator } from "react-icons/di";
+import { DiPhotoshop, DiJavascript1, DiRedis} from "react-icons/di";
+
+
+
+
+
 
 import { MdJavascript } from 'react-icons/md';
 import './Services.css';
@@ -21,13 +29,13 @@ const Services = () => {
                     
                     <div className='card1 services-card1'>
                         <div className='inner1'>
-                        <div className='icon services-icon'>< AiFillGithub /></div>
+                        <div className='icon services-icon'><FaFigma /></div>
                         <span className='ta services-tag'>
                             FIGMA
                         </span>
-                        <small className='tools'>
+                        {/* <small className='tools'>
                             React. JAVASCRIPT. HTML. CSS.
-                        </small>
+                        </small> */}
                         </div>
                         
                         <div className='inner2'>
@@ -40,11 +48,11 @@ const Services = () => {
                         <div className='inner1'>
                         <div className='icon services-icon'><FaAppStoreIos /></div>
                         <span className='ta services-tag'>
-                            FIGMA
+                            REACT NATIVE
                         </span>
-                        <small className='tools'>
+                        {/* <small className='tools'>
                             React. JAVASCRIPT. HTML. CSS.
-                        </small>
+                        </small> */}
                         </div>
                         
                         <div className='inner2'>
@@ -52,16 +60,15 @@ const Services = () => {
                         </div>
                     </div>
 
-
                     <div className='card1 services-card1'>
                         <div className='inner1'>
                         <div className='icon services-icon'>< FaAtom /></div>
                         <span className='ta services-tag'>
-                            FIGMA
+                            REACT
                         </span>
-                        <small className='tools'>
+                        {/* <small className='tools'>
                             React. JAVASCRIPT. HTML. CSS.
-                        </small>
+                        </small> */}
                         </div>
                         
                         <div className='inner2'>
@@ -74,11 +81,11 @@ const Services = () => {
                         <div className='inner1'>
                         <div className='icon services-icon'><FaCodeBranch /></div>
                         <span className='ta services-tag'>
-                            FIGMA
+                            GIT
                         </span>
-                        <small className='tools'>
+                        {/* <small className='tools'>
                             React. JAVASCRIPT. HTML. CSS.
-                        </small>
+                        </small> */}
                         </div>
                         
                         <div className='inner2'>
@@ -91,11 +98,11 @@ const Services = () => {
                         <div className='inner1'>
                         <div className='icon services-icon'>< FaDocker /></div>
                         <span className='ta services-tag'>
-                            FIGMA
+                            DOCKER
                         </span>
-                        <small className='tools'>
+                        {/* <small className='tools'>
                             React. JAVASCRIPT. HTML. CSS.
-                        </small>
+                        </small> */}
                         </div>
                         
                         <div className='inner2'>
@@ -107,13 +114,13 @@ const Services = () => {
 
                     <div className='card1 services-card1'>
                         <div className='inner1'>
-                        <div className='icon services-icon'>< AiFillApple /></div>
+                        <div className='icon services-icon'><FaPython /></div>
                         <span className='ta services-tag'>
-                            FIGMA
+                            PYTHON
                         </span>
-                        <small className='tools'>
+                        {/* <small className='tools'>
                             React. JAVASCRIPT. HTML. CSS.
-                        </small>
+                        </small> */}
                         </div>
                         
                         <div className='inner2'>
@@ -124,13 +131,13 @@ const Services = () => {
 
                     <div className='card1 services-card1'>
                         <div className='inner1'>
-                        <div className='icon services-icon'>< AiFillApple /></div>
+                        <div className='icon services-icon'><BiLogoTailwindCss /></div>
                         <span className='ta services-tag'>
-                            FIGMA
+                            TAiLWIND CSS
                         </span>
-                        <small className='tools'>
+                        {/* <small className='tools'>
                             React. JAVASCRIPT. HTML. CSS.
-                        </small>
+                        </small> */}
                         </div>
                         
                         <div className='inner2'>
@@ -138,32 +145,135 @@ const Services = () => {
                         </div>
                     </div>
 
-
                     <div className='card1 services-card1'>
                         <div className='inner1'>
-                        <div className='icon services-icon'>< AiFillApple /></div>
+                        <div className='icon services-icon'><AiOutlineHtml5 /></div>
                         <span className='ta services-tag'>
-                            FIGMA
+                            HTML/CSS
                         </span>
-                        <small className='tools'>
+                        {/* <small className='tools'>
                             React. JAVASCRIPT. HTML. CSS.
-                        </small>
+                        </small> */}
                         </div>
                         
                         <div className='inner2'>
                             <CircularProgress fulfilled={78} total={100} />
                         </div>
                     </div>
-
                     <div className='card1 services-card1'>
                         <div className='inner1'>
-                        <div className='icon services-icon'>< AiFillApple /></div>
+                        <div className='icon services-icon'><BiLogoPostgresql /></div>
                         <span className='ta services-tag'>
-                            FIGMA
+                            POSTGRES SQL
                         </span>
-                        <small className='tools'>
+                        {/* <small className='tools'>
                             React. JAVASCRIPT. HTML. CSS.
-                        </small>
+                        </small> */}
+                        </div>
+                        
+                        <div className='inner2'>
+                            <CircularProgress fulfilled={78} total={100} />
+                        </div>
+                    </div>
+                    <div className='card1 services-card1'>
+                        <div className='inner1'>
+                        <div className='icon services-icon'><DiRedis /></div>
+                        <span className='ta services-tag'>
+                            REDIS
+                        </span>
+                        {/* <small className='tools'>
+                            React. JAVASCRIPT. HTML. CSS.
+                        </small> */}
+                        </div>
+                        
+                        <div className='inner2'>
+                            <CircularProgress fulfilled={80} total={100} />
+                        </div>
+                    </div>
+                    <div className='card1 services-card1'>
+                        <div className='inner1'>
+                        <div className='icon services-icon'><DiIllustrator /></div>
+                        <span className='ta services-tag'>
+                            CORELDRAW
+                        </span>
+                        {/* <small className='tools'>
+                            React. JAVASCRIPT. HTML. CSS.
+                        </small> */}
+                        </div>
+                        
+                        <div className='inner2'>
+                            <CircularProgress fulfilled={80} total={100} />
+                        </div>
+                    </div>
+                    <div className='card1 services-card1'>
+                        <div className='inner1'>
+                        <div className='icon services-icon'><DiJavascript1 /></div>
+                        <span className='ta services-tag'>
+                            JAVASCRIPT
+                        </span>
+                        {/* <small className='tools'>
+                            React. JAVASCRIPT. HTML. CSS.
+                        </small> */}
+                        </div>
+                        
+                        <div className='inner2'>
+                            <CircularProgress fulfilled={80} total={100} />
+                        </div>
+                    </div>
+                    <div className='card1 services-card1'>
+                        <div className='inner1'>
+                        <div className='icon services-icon'><BiLogoTypescript /></div>
+                        <span className='ta services-tag'>
+                            TYPESCRIPT
+                        </span>
+                        {/* <small className='tools'>
+                            React. JAVASCRIPT. HTML. CSS.
+                        </small> */}
+                        </div>
+                        
+                        <div className='inner2'>
+                            <CircularProgress fulfilled={80} total={100} />
+                        </div>
+                    </div>
+                    <div className='card1 services-card1'>
+                        <div className='inner1'>
+                        <div className='icon services-icon'><DiPhotoshop /></div>
+                        <span className='ta services-tag'>
+                            PHOTOSHOP
+                        </span>
+                        {/* <small className='tools'>
+                            React. JAVASCRIPT. HTML. CSS.
+                        </small> */}
+                        </div>
+                        
+                        <div className='inner2'>
+                            <CircularProgress fulfilled={80} total={100} />
+                        </div>
+                    </div>
+                    <div className='card1 services-card1'>
+                        <div className='inner1'>
+                        <div className='icon services-icon'><FaNodeJs /></div>
+                        <span className='ta services-tag'>
+                            NODEJS
+                        </span>
+                        {/* <small className='tools'>
+                            React. JAVASCRIPT. HTML. CSS.
+                        </small> */}
+                        </div>
+                        
+                        <div className='inner2'>
+                            <CircularProgress fulfilled={80} total={100} />
+                        </div>
+                    </div>
+                    <div className='card1 services-card1'>
+                        <div className='inner1'>
+                        <div className='icon services-icon'><FaLinux /></div>
+                        <span className='ta services-tag'>
+                            LINUX
+                        </span>
+                        {/* <small className='tools'>
+                            React. JAVASCRIPT. HTML. CSS.
+                        </small> */}
                         </div>
                         
                         <div className='inner2'>

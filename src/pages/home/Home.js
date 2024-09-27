@@ -7,6 +7,7 @@ import Services from '../sections/services/Services';
 import Testimonials from '../sections/testimonials/TestimonialSlider';
 import FAQ from '../sections/FAQ/FAQ';
 import ScrollBtn from '../../components/scrollBtn/ScrollBtn'
+import Resume from '../sections/resume/Resume';
     
 const Home = () =>{
     
@@ -22,6 +23,7 @@ return (
         <SimpleHeader />
         <About />
         <Services />
+        <Resume />
         <RecentProjects />
         <FAQ />
         <Contact />

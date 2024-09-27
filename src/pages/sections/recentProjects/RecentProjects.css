@@ -55,7 +55,6 @@ for it to work */
 
 .filter-btns-container a:hover{
     color: var(--color-primary1);
-
 }
 .btn-active{
     color: var(--color-primary1);
@@ -71,20 +70,21 @@ for it to work */
 
 }
 .job-card{
-    width: 25rem;
-    height: auto;
-    padding: 1.5rem;
+    width: 26rem;
+    height: 35rem;
+    /* padding: 1.5rem; */
     margin: 1.5rem;
     min-width: 15rem;
+    max-width: 30rem;
     display: flex;
     flex-grow: 1;
     flex-basis: 200;
     flex-direction: column;
     align-items: left;
-    justify-content: center;
+    /* justify-content: space-between; */
     gap: 1.5rem;
-    border: solid 0.2rem var(--bg-mode-secondary);
-    background-color: var(--bg-mode-secondary);
+    border: solid 0.2rem var(--bg-mode-primary);
+    background-color: var(--bg-mode-primary);
     border-radius: 1.5rem;
     transition: var(--transition);
     cursor: pointer;
@@ -97,29 +97,154 @@ for it to work */
     transform: translateY(0.5rem);
     box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.1);
 }
-.job-card:hover .demo-btn {
+.demo-btn{
     border: solid 0.1rem var(--bg-mode-secondary);
 
 }
 .job-cta{
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     gap: 1rem;
     margin-bottom: 1rem;
 }
 .image-placeholder{
     width: 100%;
+    height: 60%;
     object-fit: cover;
-    height: auto;
+    border-radius: 1.5rem 1.5rem 0 0;
+    overflow: hidden;
+
+    /* height: auto; */
 }
 .image-placeholder img{
     width: 100%;
+    height: 100%;
+    border-radius: 1.5rem 1.5rem 0 0;
+    object-fit: cover;
+
+
 }
 .job-details{
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
     align-items: flex-start;
+    justify-content: space-between;
     text-align: left;
+    padding-inline: 1.5rem;
 }
+.git-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    /* background-color: var(--color-primary1); */
+    color: var(--bg-mode-primary);
+    border-radius: 1rem;
+    transition: var(--transition);
+    cursor: pointer;
+    /* font-size: 10px; */
+    padding: 0.5rem 1rem;
+    color: #000;
+    border: solid 0.1rem var(--bg-mode-secondary);
+
+}
+.git-icon:hover{
+    color: var(--color-primary1);
+    border: solid 0.1rem var(--color-primary1);
+}
+.btn2{
+    background-color: var(--color-primary1);
+    color: var(--bg-mode-primary);
+    border: solid 0.1rem var(--color-primary1);
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    transition: var(--transition);
+    cursor: pointer;
+}
+.btn2:hover{
+    background-color: var(--color-primary2);
+    color: black;
+    border: solid 0.1rem var(--bg-mode-secondary);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.read-more {
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* Modal Styles */
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    width: 60%;
+    position: relative;
+    height: auto;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal .image-placeholder img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.modal .job-title h3 {
+    margin-top: 20px;
+}
+
+.modal .job-cta {
+    margin-top: 20px;
+}
+
+
+
+

@@ -1,28 +1,37 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import Data from './faqData';
 import FaqCard from '../../../components/faqCard/FaqCard';
-    
-const FAQ = () =>{
-const [st, setSt] = useState('');
-    
+import './FAQ.css';
 
-return (
-<section id='FAQ' className='section FAQ-section'>
-        <div className='section-container faqs-container'>
-                {
-                        Data.map(faqitem =>{
-                                return(
-                                <FaqCard 
-                                        faqitem = {faqitem}
-                                />
-                                )
-                                
+const FAQ = () => {
+        const [st, setSt] = useState('');
 
-                        })
-                }
-        </div>
-</section>
-)
+
+        return (
+                <section id='FAQ' className='section'>
+                        <div className='faqs-header'>
+                                <h2 className='section-title'>FAQ</h2>
+
+
+                        </div>
+
+
+                        <div className='section-container faqs-container'>
+
+                                {
+                                        Data.map(faqitem => {
+                                                return (
+                                                        <FaqCard
+                                                                faqitem={faqitem}
+                                                        />
+                                                )
+
+
+                                        })
+                                }
+                        </div>
+                </section>
+        )
 }
-    
+
 export default FAQ;

@@ -1,0 +1,116 @@
+/* @import 'bootstrap/dist/css/bootstrap.min.css'; */
+
+.resume {
+    padding: 90px 0;
+  }
+  
+  .resume .my-row{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: auto;
+    gap: 40px;
+
+  }
+  .resume .my-row .my-col{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+.resume .container2{
+    width: var(--container-width-lg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-inline: auto;
+}
+
+  
+.resume .resume-title {
+    color: var(--mode-text-100);
+  font-size: 26px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid var(--color-primary1);
+  position: relative;
+}
+
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--mode-text-100), transparent 20%);
+  margin-bottom: 10px;
+}
+
+.resume .resume-item h5 {
+  font-size: 16px;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item ul {
+  padding-left: 20px;
+  margin-bottom: 0;
+  
+}
+.resume .resume-item p{
+  font-size: 12px;
+  color: var(--mode-text-100);
+  margin-bottom: 10px;
+  font-weight: 200;
+  text-align: justify;
+}
+
+.resume .resume-item ul li {
+  padding-bottom: 10px;
+  list-style-type: disc;
+  list-style: disc;
+
+}
+
+.resume .resume-item:last-child {
+  padding-bottom: 0;
+}
+
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background-color: var(--bg-mode-secondary);
+  border: 2px solid var(--color-primary1);
+
+}
+.resume .my-row2{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+}
+@media screen and (max-width: 700px) {
+    .resume .my-row{
+    flex-direction: column;
+    }
+    .resume .my-row .my-col{
+        max-width: 90%;
+    }
+}
