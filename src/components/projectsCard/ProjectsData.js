@@ -7,7 +7,17 @@ const Data = [
         title: 'Driveby-client',
         desc: 'Driveby is a peer to peer car rental platform that allows users to rent cars from other users. It is a fullstack application built with React, Python (Django) and Postgres. It has a RESTful API and a payment gateway integration. The app is domiciled on two repositories, one for the frontend and the other for the backend.',
         repo: 'https://github.com/Emeriego/DriveBy',
-        live: 'https://driveby.netlify.app/'
+        live: 'https://driveby-client.vercel.app/'
+    },
+    {
+        pid: 11,
+        category: 'Frontend',
+        tools:['Javascript', 'HTML', 'CSS'],
+        image: 'piano.jpg',
+        title: 'Piano',
+        desc: 'This is a virtual piano application. It is built with HTML, CSS and Javascript. The page is responsive and has a virtual piano that plays sounds when you click on the keys.',
+        repo: 'https://github.com/Emeriego/piano',
+        live: 'https://piano-xi-gray.vercel.app/'
     },
     {
         pid: 1,
@@ -17,7 +27,7 @@ const Data = [
         title: 'Driveby-api',
         desc: 'Driveby is a peer to peer car rental platform that allows users to rent cars from other users. It is a fullstack application built with React, Python (Django) and Postgres. It has a RESTful API and a payment gateway integration. The app is domiciled on two repositories, one for the frontend and the other for the backend.',
         repo: 'https://github.com/Emeriego/DriveBy',
-        live: 'https://driveby.netlify.app/'
+        live: 'https://driveby-client.vercel.app/'
     },
     {
         pid: 2,
@@ -27,7 +37,7 @@ const Data = [
         title: 'Laundbot Client',
         desc: 'Laundbot is a fullstack application that allows users to book laundry services online. It is built with Nextjs, Typescript, Node.js (Express) and Postgres. It has a RESTful API and a payment gateway integration. The app is domiciled on two repositories, one for the frontend and the other for the backend.',
         repo: 'https://github.com/Emeriego/laundbot-client',  
-        live: 'https://laundbot.netlify.app/'
+        live: 'https://laundbot-client.vercel.app/'
     },
     {
         pid: 12,
@@ -37,7 +47,7 @@ const Data = [
         title: 'Laundbot Client',
         desc: 'Laundbot is a fullstack application that allows users to book laundry services online. It is built with Nextjs, Typescript, Node.js (Express) and Postgres. It has a RESTful API and a payment gateway integration. The app is domiciled on two repositories, one for the frontend and the other for the backend.',
         repo: 'https://github.com/Emeriego/laundbot-api',  
-        live: 'https://laundbot.netlify.app/'
+        live: 'https://laundbot-client.vercel.app/'
     },
     {
         pid: 3,
@@ -66,8 +76,8 @@ const Data = [
         image: 'glow.png',
         title: 'Gloria',
         desc: 'Gloria is a landing page for a Health and Fitness brand. It is built with React and Tailwind CSS. The page is domiciled on github pages. I personally designed the UI/UX of the page and implemented it with React and Tailwind CSS.',
-        repo: 'github.com/emerie',
-        live: 'https://emeriego.github.io/gloria/'
+        repo: 'https://github.com/Emeriego/Glow',
+        live: 'https://glow-eight.vercel.app/'
     },
     {
         pid: 1,
@@ -87,7 +97,7 @@ const Data = [
         title: 'Press Portfolio Application',
         desc: 'This a corporate application website that showcases the products and services of a printing press company. It is built with React, Node.js (Express) and Postgres. It has a RESTful API. The app is domiciled on two repositories, one for the frontend and the other for the backend.',
         repo: 'https://github.com/Emeriego/sunnytech-client',
-        live: 'https://sunnytech.com'
+        live: 'https://www.sunnytechlink.com/'
     },
     {
         pid: 6,
@@ -137,16 +147,9 @@ const Data = [
         image: 'placeholder.png',
         title: 'Series of programming tasks',
         desc: 'This a series of several programming tasks, from data structure to database, to object oriented programming.',
-        repo: 'https://github.com/Emeriego/alx-higher_level_programming'
-    },
-    {
-        pid: 11,
-        category: 'Frontend',
-        tools:['Javascript', 'HTML', 'CSS'],
-        image: 'piano.jpg',
-        title: 'Piano',
-        desc: 'This is a virtual piano application. It is built with HTML, CSS and Javascript. The page is responsive and has a virtual piano that plays sounds when you click on the keys.',
-        repo: 'https://github.com/Emeriego/piano'
+        repo: 'https://github.com/Emeriego/alx-higher_level_programming',
+        live: 'https://my-portfolio-weld-five-98.vercel.app/'
+
     },
     {
         pid: 120,
@@ -155,7 +158,9 @@ const Data = [
         image: 'airbnb.png',
         title: 'AirBnB Clone',
         desc: 'This is a clone of the AirBnB website. It is built with Flask, Postgres and Redis. The page is responsive and has a search functionality exactly like AirBnB with all the advanced features.',
-        repo: 'https://github.com/Emeriego/AirBnB_clone_v4'
+        repo: 'https://github.com/Emeriego/AirBnB_clone_v4',
+        live: 'https://my-portfolio-weld-five-98.vercel.app/'
+
     },
     {
         pid: 120,
@@ -164,7 +169,9 @@ const Data = [
         image: 'placeholder.png',
         title: 'Simple Shell',
         desc: 'This is a simple shell application. It is built with C. The shell is a command line interface that allows users to interact with the computer. The shell is a simple implementation of the bash shell.',
-        repo: 'https://github.com/Emeriego/simpleshell'
+        repo: 'https://github.com/Emeriego/simpleshell',
+        live: 'https://my-portfolio-weld-five-98.vercel.app/'
+
 
     },
     {
@@ -174,7 +181,9 @@ const Data = [
         image: 'placeholder.png',
         title: 'Printf',
         desc: 'This is a printf function implementation. It is built with C. The printf function is a standard library function that allows users to print formatted strings to the console. The printf function is a simple implementation of the standard printf function.',
-        repo: 'github.com/emerie'
+        repo: 'github.com/emerie',
+        live: 'https://my-portfolio-weld-five-98.vercel.app/'
+
     }
 ]
 
