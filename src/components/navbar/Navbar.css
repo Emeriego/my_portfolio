@@ -141,8 +141,6 @@ hr{
     cursor: pointer;
     transition: var(--transition);
 
-
-
 }
 .mode-switch-btn{
     width: 1.3rem;
@@ -155,7 +153,6 @@ hr{
     transform: var(--transition);
     cursor: pointer;
 
-    
 }
 .to-dark{
     left: 1.6rem;
@@ -190,6 +187,46 @@ hr{
 .mob-menu a{
     color: var(--mode-text-);
 }
+
+
+
+
+
+.menu a {
+    position: relative;
+    text-decoration: none; /* Remove default underline */
+    color: var(--mode-text-100);
+    transition: color 0.3s; /* Smooth color transition */
+}
+.menu a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0; 
+    height: 4px;
+    background-color: var(--color-primary1); 
+    transition: width 0.3s ease;
+    border-radius: 40px;
+}
+
+.menu a:hover::after,
+.menu a.active::after,
+.menu a:active::after {
+    width: 100%;
+    
+}
+
+.menu a:hover {
+    color: var(--color-primary1);
+}
+
+
+
+
+
+
+
 .mob-bar{
     display: none;
     cursor: pointer;

@@ -40,9 +40,11 @@
 
 .resume .resume-item {
   padding: 0 0 20px 20px;
+  font-size: 12px;
   margin-top: -2px;
   border-left: 2px solid var(--color-primary1);
   position: relative;
+  font-weight: 200;
 }
 
 .resume .resume-item h4 {
@@ -67,8 +69,8 @@
   margin-bottom: 0;
   
 }
-.resume .resume-item p{
-  font-size: 12px;
+.resume .resume-item p, em{
+  font-size: 14px;
   color: var(--mode-text-100);
   margin-bottom: 10px;
   font-weight: 200;

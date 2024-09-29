@@ -1,0 +1,15 @@
+.footer-section{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    /* background-color: var(--bg-mode-secondary); */
+    background-color: rgb(49, 47, 47) !important;
+    padding: 20px 0;
+    border-top: 2px solid var(--color-primary1);
+    position: relative;
+    font-weight: 200;
+}

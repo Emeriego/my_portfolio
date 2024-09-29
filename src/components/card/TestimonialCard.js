@@ -13,8 +13,7 @@ return (
         <div className='msg-body'>
             <div className='qt'>"</div>
             <p>
-                He is reliable. Delivers services profesionally and on time. I'll recommend him.
-
+                {msg}
             </p>
 
         </div>

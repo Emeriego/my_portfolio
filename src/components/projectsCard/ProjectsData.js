@@ -1,7 +1,7 @@
 const Data = [
     {
         pid: 1,
-        category: 'Frontend',
+        category: ['Frontend', 'Fullstack'],
         tools:['React', 'Javascript', 'HTML', 'CSS'],
         image: 'driveby.png',
         title: 'Driveby-client',
@@ -11,7 +11,7 @@ const Data = [
     },
     {
         pid: 11,
-        category: 'Frontend',
+        category: ['Frontend', 'Design'],
         tools:['Javascript', 'HTML', 'CSS'],
         image: 'piano.jpg',
         title: 'Piano',
@@ -21,7 +21,7 @@ const Data = [
     },
     {
         pid: 1,
-        category: 'Backend',
+        category: ['Backend', 'Fullstack'],
         tools:['Python','Django','sequelizer','Postgres'],
         image: 'baskphone.png',
         title: 'Driveby-api',
@@ -31,7 +31,7 @@ const Data = [
     },
     {
         pid: 2,
-        category: 'Frontend',
+        category: ['Frontend', 'Fullstack'],
         tools:['React', 'Nextjs','Javascript', 'Typescript'],
         image: 'laundbot.png',
         title: 'Laundbot Client',
@@ -41,7 +41,7 @@ const Data = [
     },
     {
         pid: 12,
-        category: 'Backend',
+        category: [ 'Backend', 'Fullstack'],
         tools:['NodeJs', 'Express', 'Postgres','Javascript', 'Typescript'],
         image: 'laundbot.png',
         title: 'Laundbot API',
@@ -51,7 +51,7 @@ const Data = [
     },
     {
         pid: 3,
-        category: 'Webflow',
+        category: ['Webflow', 'Design'],
         tools:['Figma', 'Photoshop', 'CorelDraw', 'Sketch', 'Webflow'],
         image: 'chat.png',
         title: 'EmChat',
@@ -61,7 +61,7 @@ const Data = [
     },
     {
         pid: 4,
-        category: 'webflow',
+        category: ['Webflow', 'Design'],
         tools:['Figma', 'Photoshop', 'CorelDraw', 'Sketch', 'Webflow'],
         image: 'classmate.png',
         title: 'Classmates',
@@ -71,8 +71,8 @@ const Data = [
     },
     {
         pid: 5,
-        category: 'frontend',
-        tools:['React','Javascript', 'HTML', 'Tailwind'],
+        category: ['Frontend', 'Design'],
+        tools:['React','Javascript', 'HTML', 'Tailwind', 'Figma'],
         image: 'glow.png',
         title: 'Gloria',
         desc: 'Gloria is a landing page for a Health and Fitness brand. It is built with React and Tailwind CSS. The page is domiciled on github pages. I personally designed the UI/UX of the page and implemented it with React and Tailwind CSS.',
@@ -81,7 +81,7 @@ const Data = [
     },
     {
         pid: 1,
-        category: 'Mobile',
+        category: ['Frontend', 'Backend', 'Fullstack', 'Mobile'],
         tools:['React', 'Native', 'Javascript', 'Typescript'],
         image: 'dayline.png',
         title: 'Dayline Day tracker',
@@ -91,7 +91,7 @@ const Data = [
     },
     {
         pid: 20,
-        category: 'Fullstack',
+        category: ['Frontend', 'Backend', 'Fullstack','Design'],
         tools:['React', 'Javascript', 'HTML', 'CSS'],
         image: 'sunnytech.png',
         title: 'Press Portfolio Application',
@@ -101,7 +101,7 @@ const Data = [
     },
     {
         pid: 6,
-        category: 'Fullstack',
+        category: ['Frontend', 'Backend', 'Fullstack'],
         tools:['PHP', 'Mysql', 'HTML', 'CSS'],
         image: 'unical.png',
         title: 'Press Archiving Application',
@@ -111,7 +111,7 @@ const Data = [
     },
     {
         pid: 7,
-        category: 'Fullstack',
+        category: ['Frontend', 'Backend', 'Fullstack'],
         tools:['React', 'Javascript', 'HTML', 'CSS'],
         image: 'godwin.png',
         title: 'Portfolio Application',
@@ -121,7 +121,7 @@ const Data = [
     },
     {
         pid: 8,
-        category: 'Frontend',
+        category: ['Frontend'],
         tools:['Javascript', 'HTML', 'CSS'],
         image: 'google.png',
         title: 'Google Clone',
@@ -131,7 +131,7 @@ const Data = [
     },
     {
         pid: 9,
-        category: 'fullstack',
+        category: ['Frontend', 'Backend', 'Fullstack'],
         tools:['Python', 'Django', 'Sqlite', 'HTML', 'CSS'],
         image: 'wiki.png',
         title: 'Wiki clone',
@@ -142,7 +142,7 @@ const Data = [
     },
     {
         pid: 10,
-        category: 'Backend',
+        category: ['Frontend', 'Backend', 'Fullstack'],
         tools:['Python', 'Postgres', 'Redis', 'NodeJs', 'Javascript', 'Typescript', 'html'],
         image: 'placeholder.png',
         title: 'Series of programming tasks',
@@ -153,7 +153,7 @@ const Data = [
     },
     {
         pid: 120,
-        category: 'Fullstack',
+        category: ['Frontend', 'Backend', 'Fullstack'],
         tools:['Python', 'Postgres', 'Redis', 'Flask', 'Javascript', 'HTML', 'CSS'],
         image: 'airbnb.png',
         title: 'AirBnB Clone',
@@ -164,7 +164,7 @@ const Data = [
     },
     {
         pid: 120,
-        category: 'utility',
+        category: ['Utility'],
         tools:['C', 'Shell'],
         image: 'placeholder.png',
         title: 'Simple Shell',
@@ -176,7 +176,7 @@ const Data = [
     },
     {
         pid: 14,
-        category: 'utility',
+        category: ['Utility'],
         tools:['C', 'Shell'],
         image: 'placeholder.png',
         title: 'Printf',

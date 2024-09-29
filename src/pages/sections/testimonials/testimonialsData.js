@@ -2,10 +2,10 @@ const testimonialsData = [
     {
         testId: 1,
         name: "Mr. Mathias Sunday",
-        client: "UnicalPress Ltd",
+        client: "Unical Printing Press",
         about: "MD",
         profileImg: "prof1.jpg",
-        msg: "njkkd dkjkds kk dskedf dflksdjsl djlsdlkj e dslkjdsljd sdlsdjdsjlkd dlsdkjd"
+        msg: "Godwin is a talented developer and designer who is always willing to go the extra mile to ensure that the project is completed to the highest standard. His attention to detail and ability to think outside the box make him a valuable asset to any team. I highly recommend him."
 
     },
     {
@@ -14,7 +14,7 @@ const testimonialsData = [
         client: "SunnytechLink Ltd",
         about: "Manager",
         profileImg: "prof1.jpg",
-        msg: "njkkd dkjkds kk dskedf dflksdjsl djlsdlkj e dslkjdsljd sdlsdjdsjlkd dlsdkjd"
+        msg: "He is a great guy to work with. He is very professional and always delivers on time. I would recommend him to anyone looking for a great developer."
 
     },
     {
@@ -23,7 +23,7 @@ const testimonialsData = [
         client: "Akankpa Journals, Akankpa College of Education",
         about: "Team Lead",
         profileImg: "prof1.jpg",
-        msg: "njkkd dkjkds kk dskedf dflksdjsl djlsdlkj e dslkjdsljd sdlsdjdsjlkd dlsdkjd"
+        msg: "Working with Godwin was a fantastic experience. He took the time to understand our needs and delivered a stunning website that resonates with our brand. His expertise in both design and functionality has truly elevated our online presence."
 
     },
     {
@@ -32,7 +32,7 @@ const testimonialsData = [
         client: "Agu NGO",
         about: "CEO",
         profileImg: "prof1.jpg",
-        msg: "njkkd dkjkds kk dskedf dflksdjsl djlsdlkj e dslkjdsljd sdlsdjdsjlkd dlsdkjd"
+        msg: "Godwin exceeded my expectations with the redesign of my website. His understanding of my vision and attention to detail made the entire process seamless. I now receive more inquiries than ever, thanks to his exceptional work!"
 
     },
     {
@@ -41,7 +41,7 @@ const testimonialsData = [
         client: "ICT Directorate, Unical",
         about: "Director",
         profileImg: "prof1.jpg",
-        msg: "njkkd dkjkds kk dskedf dflksdjsl djlsdlkj e dslkjdsljd sdlsdjdsjlkd dlsdkjd"
+        msg: "Working with Godwin has been a game-changer. His deep understanding of both frontend and backend technologies allows him to create seamless and efficient applications. His collaborative spirit and proactive attitude make every project enjoyable."
 
     },
     {
@@ -50,8 +50,16 @@ const testimonialsData = [
         client: "UCTH",
         about: "Consultant",
         profileImg: "prof1.jpg",
-        msg: "njkkd dkjkds kk dskedf dflksdjsl djlsdlkj e dslkjdsljd sdlsdjdsjlkd dlsdkjd"
+        msg: "Godwin’s technical skills are matched only by his creativity. He has an exceptional ability to take complex concepts and simplify them for users. His dedication to continuous improvement and learning is inspiring and sets a standard for the entire team."
 
+    },
+    {
+        testId: 5,
+        name: "Mr Anders",
+        client: "IntPlus Ltd",
+        about: "Product Manager",
+        profileImg: "prof1.jpg",
+        msg: "Godwin is a true asset to any team. His ability to bridge the gap between design and functionality resulted in a product that not only meets but exceeds expectations. His attention to detail and innovative approach consistently bring fresh ideas to the table"
     }
 
 

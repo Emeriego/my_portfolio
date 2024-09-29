@@ -21,9 +21,9 @@ const Resume = () => {
               <h4>Godwin Chiemerie Ojukwu</h4>
               <p>
                 <em>
-                  Innovative and deadline-driven Software developer with 3+ years of experience
-                  designing and developing user-centered digital/print marketing material from
-                  initial concept to final, polished deliverable.
+                Multifaceted tech professional with expertise in Frontend and Backend Development (ReactJS, NodeJs, Javascript,
+Django, Python,Typescript, Tailwind, HTML, CSS etc), Graphics design (Corel Draw, Photoshop etc), and UI design (Figma, Adobe XD etc).
+Passionate about blending creativity and innovation to create beautiful and impactful software solutions.
                 </em>
               </p>
               <ul>
@@ -39,8 +39,7 @@ const Resume = () => {
               <h5>2007 - 2012</h5>
               <p><em>University of Abuja, Abuja, NG</em></p>
               <p>
-                Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit.
-                Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend.
+              Completed coursework in Data Communications, Data Structures, AI, OS, Multicloud, and more. Applied Object-Oriented Programming (OOP) principles to design and implement scalable software solutions as part of academic projects.
               </p>
             </div>
 
@@ -49,9 +48,7 @@ const Resume = () => {
               <h5>2023 - 2024</h5>
               <p><em>ALX/Holberton, Lagos, NG</em></p>
               <p>
-                Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis
-                Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum
-                molestiae consequatur neque etlon sader mart dila.
+              A comprehensive, industry-aligned program designed to meet modern software development standards through project-based learning. The intensive training provides hands-on experience with languages like JavaScript, C, Python, and Shell, while fostering collaborative teamwork using tools such as GitHub, Slack, and Discord to simulate real-world development environments.
               </p>
             </div>
           </div>
@@ -59,46 +56,52 @@ const Resume = () => {
           <div className="my-col">
             <h3 className="resume-title">Professional Experience</h3>
             <div className="resume-item">
-              <h4>Senior Graphic Design Specialist</h4>
-              <h5>2019 - Present</h5>
-              <p><em>Experion, New York, NY</em></p>
+              <h4>SYSTEM ANALYST, WEB DEVELOPER, DESIGNER (ICT)</h4>
+              <h5>2017 - Present</h5>
+              <p><em>University of Calabar, Calabar, NG</em></p>
               <ul>
                 <li>
-                  Lead in the design, development, and implementation of the graphic, layout, and
-                  production communication materials.
+                Web Development: Designed and implemented system solutions to address key teaching challenges.
                 </li>
                 <li>
-                  Delegate tasks to the 7 members of the design team and provide counsel on all
-                  aspects of the project.
+                Gap Analysis: Performed comprehensive gap analysis to bridge the gap between current systems and desired outcomes.
                 </li>
                 <li>
-                  Supervise the assessment of all graphic materials to ensure quality and
-                  accuracy of the design.
+                Training and Education: Delivered personalized training sessions to staff and students, ensuring effective adoption and utilization of new systems."
                 </li>
-                <li>
-                  Oversee the efficient use of production project budgets ranging from $2,000 -
-                  $25,000.
-                </li>
+              
               </ul>
             </div>
 
             <div className="resume-item">
-              <h4>Graphic Design Specialist</h4>
+              <h4>Graphics Design Specialist</h4>
               <h5>2017 - 2018</h5>
-              <p><em>Stepping Stone Advertising, New York, NY</em></p>
+              <p><em>Sarki Digital Impressions Ltd, Abuja, NG</em></p>
               <ul>
                 <li>
-                  Developed numerous marketing programs (logos, brochures, infographics,
-                  presentations, and advertisements).
+                Leveraged data-driven insights to guide design decisions and assess the impact of changes.
                 </li>
-                <li>Managed up to 5 projects or tasks at a given time while under pressure.</li>
+                <li>Played a key role in shaping brand identity, ensuring consistency and cohesion across all touchpoints.</li>
                 <li>
-                  Recommended and consulted with clients on the most appropriate graphic design.
+                Successfully designed annual reports for prominent organizations, including Kano Electricity Distribution Company and the Office of the Accountant General of the Federation (OAGF).
                 </li>
+                
+              </ul>
+            </div>
+            <div className="resume-item">
+              <h4>Technical Support Officer</h4>
+              <h5>2014 - 2016</h5>
+              <p><em>Academic Automation Technology Ltd, Abuja, NG &</em></p>
+              <p><em>JKC Consulting Ltd, Abuja, NG</em></p>
+
+              <ul>
                 <li>
-                  Created 4+ design presentations and proposals a month for clients and account
-                  managers.
-                </li>
+                Hardware/Software Installation and Configuration: Guided users through the installation and configuration of
+hardware and software applications, ensuring compatibility and functionality.                </li>
+                <li>
+                User Training: Conducted user training sessions to empower users with the knowledge to troubleshoot
+common issues independently and mo                </li>
+                
               </ul>
             </div>
           </div>

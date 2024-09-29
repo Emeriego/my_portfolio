@@ -28,7 +28,7 @@ return (
                             BACKEND
                         </span>
                         <small className='about-tools'>
-                            Node.js. MongoDB. MySQL. Python. PHP
+                            Node.js. Postgres, MySQL. Python. PHP, etc 
                         </small>
                     </div>
                     <div className='card1 about-card1'>
@@ -37,7 +37,7 @@ return (
                             FRONTEND
                         </span>
                         <small className='about-tools'>
-                            React. Javascript. HTML. Boostrap. CSS. MUI.
+                            React. Javascript. HTML. Boostrap. CSS. Tailwind etc.
                         </small>
                     </div>
                     <div className='card1 about-card1'>
@@ -51,10 +51,7 @@ return (
                     </div>
                 </div>
                 <div className='about-text'>
-                    <p>Versatile Graphics Designer, proficient in the use of modern creative design tools like Corel Draw X7, Adobe Illustrator CS6,
-Adobe Photoshop CS6 etc. I am also familiar with basic Web Development/Design fundamentals, ready to pursue a career in
-a dynamic, competitive, challenging and social environment where my potentials shall be fully utilized, my career enhanced
-and my dreams realized.</p>
+                    <p>I am passionate about what I do, Fullstack Development. With the strong foundation earned through a 12 months rigorous training at ALX Africa and my background as a Computer Scientist, I am well equiped in both frontend and backend technologies. With expertise in creating seamless user experiences and robust, scalable backend systems, I specialize in using modern frameworks like React, Next.js, Node.js, and TypeScript to build dynamic web applications. I'm always excited to solve problems, learn new technologies, and contribute to projects that make a difference.</p>
                 </div>
                 <button className='btn download-btn'>Download CV</button>
             </div>
