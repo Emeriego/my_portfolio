@@ -15,7 +15,7 @@
 }
 
 .circular-progress-bar {
-  stroke: #f97316;
+  stroke: var(--color-primary1);
   transition: stroke-dashoffset 0.35s;
   transform: rotate(0.25turn);
   transform-origin: center;

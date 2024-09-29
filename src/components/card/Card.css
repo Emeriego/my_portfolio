@@ -11,7 +11,7 @@
     margin-top: 3rem;
     margin-bottom: 8%;
     padding-bottom: 1rem;
-    background-color: var(--bg-mode-primary);
+    background-color: var(--bg-mode-secondary);
     transition: transform 0.3s ease-in-out;
     position: relative;
     color: var(--mode-text-100);
@@ -26,6 +26,7 @@
     height: 100%;
     margin-inline: auto;
     padding-top: 2rem;
+
 }
 .msg-body{
     width: 100%;
@@ -49,7 +50,7 @@
     width: 100%;
     height: 0.5px;
     margin-inline: auto;
-    background-color: var(--bg-mode-secondary);
+    background-color: var(--bg-mode-primary);
 }
 .header-1{
     max-width: 100%;

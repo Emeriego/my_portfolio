@@ -6,7 +6,7 @@ import './FAQ.css';
 const FAQ = () => {
         const [st, setSt] = useState('');
         return (
-                <section id='FAQ' className='section'>
+                <section id='faq' className='section'>
                         <div className='faqs-header'>
                                 <h2 className='section-title'>FAQ</h2>
                         </div>

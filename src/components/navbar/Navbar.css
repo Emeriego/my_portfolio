@@ -163,8 +163,9 @@ hr{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1.2rem;
+    gap: 1rem;
     cursor: pointer;
+    font-size: 1rem;
 }
 .mob-menu{
     position: absolute;
@@ -234,8 +235,9 @@ hr{
 .my-theme{
     /* position:absolute; */
     background-color: transparent;
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
+    margin-left: -2rem;
 
 }
 .theme-btn{

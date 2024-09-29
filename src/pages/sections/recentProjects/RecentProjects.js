@@ -58,8 +58,6 @@ return (
                         <a className={`filter-btn ${activeCategory == category? "btn-active" : ""} `} onClick={()=>FilterJobs(category)} >{category}</a>
                         <div className="btn-divider"></div>
                         </div>
-                        
-
                     )
                 })
             }

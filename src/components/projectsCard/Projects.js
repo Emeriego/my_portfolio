@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { FaGithub } from "react-icons/fa";
-import { Link } from 'react-router-dom';
 
 const Projects = ({ project }) => {
     const [showModal, setShowModal] = useState(false);

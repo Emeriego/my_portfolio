@@ -3,11 +3,11 @@ import './Resume.css'; // Import your custom styles
 
 const Resume = () => {
   return (
-    <section id="resume" className="bootstrap-scope resume section">
+    <section id="resume" className="section bootstrap-scope resume">
       {/* Section Title */}
       <div className="container2">
         <h2 className='section-title'>Resume</h2>
-          {/* <p>
+        {/* <p>
             Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum
             quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui
             impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
@@ -21,9 +21,9 @@ const Resume = () => {
               <h4>Godwin Chiemerie Ojukwu</h4>
               <p>
                 <em>
-                Multifaceted tech professional with expertise in Frontend and Backend Development (ReactJS, NodeJs, Javascript,
-Django, Python,Typescript, Tailwind, HTML, CSS etc), Graphics design (Corel Draw, Photoshop etc), and UI design (Figma, Adobe XD etc).
-Passionate about blending creativity and innovation to create beautiful and impactful software solutions.
+                  Multifaceted tech professional with expertise in Frontend and Backend Development (ReactJS, NodeJs, Javascript,
+                  Django, Python,Typescript, Tailwind, HTML, CSS etc), Graphics design (Corel Draw, Photoshop etc), and UI design (Figma, Adobe XD etc).
+                  Passionate about blending creativity and innovation to create beautiful and impactful software solutions.
                 </em>
               </p>
               <ul>
@@ -39,7 +39,7 @@ Passionate about blending creativity and innovation to create beautiful and impa
               <h5>2007 - 2012</h5>
               <p><em>University of Abuja, Abuja, NG</em></p>
               <p>
-              Completed coursework in Data Communications, Data Structures, AI, OS, Multicloud, and more. Applied Object-Oriented Programming (OOP) principles to design and implement scalable software solutions as part of academic projects.
+                Completed coursework in Data Communications, Data Structures, AI, OS, Multicloud, and more. Applied Object-Oriented Programming (OOP) principles to design and implement scalable software solutions as part of academic projects.
               </p>
             </div>
 
@@ -48,7 +48,7 @@ Passionate about blending creativity and innovation to create beautiful and impa
               <h5>2023 - 2024</h5>
               <p><em>ALX/Holberton, Lagos, NG</em></p>
               <p>
-              A comprehensive, industry-aligned program designed to meet modern software development standards through project-based learning. The intensive training provides hands-on experience with languages like JavaScript, C, Python, and Shell, while fostering collaborative teamwork using tools such as GitHub, Slack, and Discord to simulate real-world development environments.
+                A comprehensive, industry-aligned program designed to meet modern software development standards through project-based learning. The intensive training provides hands-on experience with languages like JavaScript, C, Python, and Shell, while fostering collaborative teamwork using tools such as GitHub, Slack, and Discord to simulate real-world development environments.
               </p>
             </div>
           </div>
@@ -61,15 +61,15 @@ Passionate about blending creativity and innovation to create beautiful and impa
               <p><em>University of Calabar, Calabar, NG</em></p>
               <ul>
                 <li>
-                Web Development: Designed and implemented system solutions to address key teaching challenges.
+                  Web Development: Designed and implemented system solutions to address key teaching challenges.
                 </li>
                 <li>
-                Gap Analysis: Performed comprehensive gap analysis to bridge the gap between current systems and desired outcomes.
+                  Gap Analysis: Performed comprehensive gap analysis to bridge the gap between current systems and desired outcomes.
                 </li>
                 <li>
-                Training and Education: Delivered personalized training sessions to staff and students, ensuring effective adoption and utilization of new systems."
+                  Training and Education: Delivered personalized training sessions to staff and students, ensuring effective adoption and utilization of new systems."
                 </li>
-              
+
               </ul>
             </div>
 
@@ -79,13 +79,13 @@ Passionate about blending creativity and innovation to create beautiful and impa
               <p><em>Sarki Digital Impressions Ltd, Abuja, NG</em></p>
               <ul>
                 <li>
-                Leveraged data-driven insights to guide design decisions and assess the impact of changes.
+                  Leveraged data-driven insights to guide design decisions and assess the impact of changes.
                 </li>
                 <li>Played a key role in shaping brand identity, ensuring consistency and cohesion across all touchpoints.</li>
                 <li>
-                Successfully designed annual reports for prominent organizations, including Kano Electricity Distribution Company and the Office of the Accountant General of the Federation (OAGF).
+                  Successfully designed annual reports for prominent organizations, including Kano Electricity Distribution Company and the Office of the Accountant General of the Federation (OAGF).
                 </li>
-                
+
               </ul>
             </div>
             <div className="resume-item">
@@ -96,18 +96,18 @@ Passionate about blending creativity and innovation to create beautiful and impa
 
               <ul>
                 <li>
-                Hardware/Software Installation and Configuration: Guided users through the installation and configuration of
-hardware and software applications, ensuring compatibility and functionality.                </li>
+                  Hardware/Software Installation and Configuration: Guided users through the installation and configuration of
+                  hardware and software applications, ensuring compatibility and functionality.                </li>
                 <li>
-                User Training: Conducted user training sessions to empower users with the knowledge to troubleshoot
-common issues independently and mo                </li>
-                
+                  User Training: Conducted user training sessions to empower users with the knowledge to troubleshoot
+                  common issues independently and mo                </li>
+
               </ul>
             </div>
           </div>
         </div>
         <div className="my-row2">
-        <button className='btn download-btn3'>Download CV</button>
+          <button className='btn download-btn3'>Download CV</button>
         </div>
 
       </div>
