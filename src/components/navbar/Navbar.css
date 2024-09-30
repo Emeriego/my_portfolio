@@ -171,12 +171,12 @@ hr{
     position: absolute;
     top: 6rem;
     right: 0;
-    height: 18rem;
+    height: 22rem;
     width: 100%;
     background: var(--bg-mode-primary);
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 1.4rem;
     padding-top: 1.5rem;
     padding-left: 2rem;
     font-size: 1rem;
@@ -231,6 +231,7 @@ hr{
 .mob-bar{
     display: none;
     cursor: pointer;
+    margin-top: 8px;
 }
 .my-theme{
     /* position:absolute; */
@@ -316,14 +317,17 @@ hr{
         position: absolute;
         display: block;
         height: 8rem;
-        right: 2rem;
-        top: -15rem;
+        right: 0rem;
+        top: -17.3rem;
         box-shadow: none;
         /* border: solid 1px var(--bg-mode-secondary); */
-        border: solid 1px black;
+        /* border: solid 1px black; */
 
     }
+    .show-container{
+        display: block;
+    }
     .theme{
-        display: none;
+        display: block;
     }
 }

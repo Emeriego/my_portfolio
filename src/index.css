@@ -242,6 +242,8 @@ code {
   ); */
   background-color: var(--color-primary1);
   color: var(--color-gray-100);
+  cursor: pointer;
+
 
 
 }
@@ -254,6 +256,7 @@ code {
   border-radius: 1rem;
   font-size: 1.2rem;
   transition: var(--transition); 
+  cursor: pointer;
   color: color-mix(
     in srgb,
     green 70%,
@@ -263,7 +266,7 @@ code {
   background-color: var(--color-gray-100);
 }
 .btn:hover{
-  background-color: var(--color-light-100);
+  background-color: var(--bg-mode-secondary);
   color: var(--color-primary1);
 
 }

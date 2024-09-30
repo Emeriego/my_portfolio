@@ -56,9 +56,9 @@ const Navbar = () => {
                                         <img src={logo} alt='site logo' />
                                 </div>
                                 <div className={mob ? "mob-menu" : "menu"}>
-                                        <HashLink to='#simple-header' className={activeLink === 'simple-header' ? 'active' : ''} onClick={() => handleLinkClick('simple-header')}>Header</HashLink>
+                                        <HashLink to='#simple-header' className={activeLink === 'simple-header' ? 'active' : ''} onClick={() => handleLinkClick('simple-header')}>Home</HashLink>
                                         <HashLink to='#about' className={activeLink === 'about' ? 'active' : ''} onClick={() => handleLinkClick('about')}>About</HashLink>
-                                        <HashLink to='#services' className={activeLink === 'services' ? 'active' : ''} onClick={() => handleLinkClick('services')}>Services</HashLink>
+                                        <HashLink to='#services' className={activeLink === 'services' ? 'active' : ''} onClick={() => handleLinkClick('services')}>Tools</HashLink>
                                         <HashLink to='#resume' className={activeLink === 'resume' ? 'active' : ''} onClick={() => handleLinkClick('resume')}>Resume</HashLink>
 
                                         <HashLink to='#portfolio' className={activeLink === 'portfolio' ? 'active' : ''} onClick={() => handleLinkClick('portfolio')}>Portfolio</HashLink>

@@ -3,6 +3,7 @@ import './SimpleHeader.css';
 import AboutImg3 from './gco3.png';
 import {AiFillAlert, AiFillApple} from 'react-icons/ai';
 import {MdJavascript, MdDataObject, MdDesktopMac} from 'react-icons/md';
+import { HashLink } from 'react-router-hash-link';
 
 
 const SimpleHeader = () =>{
@@ -28,7 +29,7 @@ return (
                     aiming to create elegant and intuitive solutions. Explore my work, 
                     and let's turn your ideas into captivating digital experiences.</p>
                 </div>
-                <button className='btn download-btn'>Explore My Work</button>
+                <HashLink to='#portfolio' ><button className='btn download-btn'>Explore My Work</button></HashLink>
             </div>
             
                </div>
