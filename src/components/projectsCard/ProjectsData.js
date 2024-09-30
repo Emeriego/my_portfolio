@@ -67,7 +67,7 @@ const Data = [
         title: 'Classmates',
         desc: 'Classmates is a landing page for a students collaboration platform. It is built with Webflow and has a responsive design. The page is domiciled on webflow. I personally designed the UI/UX of the page and implemented it on webflow.',
         repo: 'https://github.com/Emeriego',
-        live: 'https://classmates-com.webflow.io/'
+        live: 'https://flatmates-ca6109.webflow.io/'
     },
     {
         pid: 5,
