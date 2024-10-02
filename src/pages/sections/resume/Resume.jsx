@@ -1,9 +1,28 @@
 import React from 'react';
+import { useState } from 'react';
 import './Resume.css'; // Import your custom styles
 
 const Resume = () => {
+  const [feedback, setFeedback] = useState(null);
+  const showMessage = (message, type) => {
+      setFeedback({ message, type });
+
+      setTimeout(() => {
+          setFeedback(null);
+      }, 6000);
+  };
+
+const showMyMessage =() => {
+  showMessage("The Resume has been successfully downloaded", "success")
+}
   return (
     <section id="resume" className="section bootstrap-scope resume">
+       {feedback && (
+                <div
+                class={`feedback ${feedback.type === 'success' ? 'feedback-success' : 'feedback-error'}`}                >
+                    {feedback.message}
+                </div>
+            )}
       {/* Section Title */}
       <div className="container2">
         <h2 className='section-title'>Resume</h2>
@@ -107,7 +126,9 @@ const Resume = () => {
           </div>
         </div>
         <div className="my-row2">
-          <button className='btn download-btn3'>Download CV</button>
+          <a href="./godwin-resume.pdf" download="godwin-ojukwu-resume.pdf">
+            <button onClick={showMyMessage} className='btn download-btn'>Download CV</button>
+          </a>
         </div>
 
       </div>

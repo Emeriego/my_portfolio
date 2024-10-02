@@ -178,6 +178,30 @@
 .sm-download-btn{
   display: none;
 }
+.feedback {
+  width: 300px;
+  height: 50px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0.5rem 1rem; /* equivalent to px-4 py-2 */
+  border-radius: 0.25rem; /* equivalent to rounded */
+  color: white;
+  font-size: 16px;
+  align-content: center;
+  text-align: center;
+}
+
+
+.feedback-success {
+  background-color: var(--color-primary1); /* equivalent to bg-green-500 */
+}
+
+.feedback-error {
+  background-color: #f56565; /* equivalent to bg-red-500 */
+}
+
 @media screen and (max-width: 430px) {
   .about-section{
     padding-left: 0;
