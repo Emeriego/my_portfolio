@@ -74,8 +74,8 @@ const Data = [
         category: ['Frontend', 'Design'],
         tools:['React','Javascript', 'HTML', 'Tailwind', 'Figma'],
         image: 'glow.png',
-        title: 'Gloria',
-        desc: 'Gloria is a landing page for a Health and Fitness brand. It is built with React and Tailwind CSS. The page is domiciled on github pages. I personally designed the UI/UX of the page and implemented it with React and Tailwind CSS.',
+        title: 'Kasia',
+        desc: 'Kasia is a landing page for a Health and Fitness brand. It is built with React and Tailwind CSS. The page is domiciled on github pages. I personally designed the UI/UX of the page and implemented it with React and Tailwind CSS.',
         repo: 'https://github.com/Emeriego/Glow',
         live: 'https://glow-eight.vercel.app/'
     },
