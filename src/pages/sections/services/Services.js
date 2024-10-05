@@ -39,7 +39,7 @@ const Services = () => {
                         </div>
                         
                         <div className='inner2'>
-                            <CircularProgress fulfilled={90} total={100} />
+                            <CircularProgress fulfilled={70} total={100} />
                         </div>
                     </div>
                     
@@ -72,7 +72,7 @@ const Services = () => {
                         </div>
                         
                         <div className='inner2'>
-                            <CircularProgress fulfilled={50} total={100} />
+                            <CircularProgress fulfilled={90} total={100} />
                         </div>
                     </div>
 
@@ -89,7 +89,7 @@ const Services = () => {
                         </div>
                         
                         <div className='inner2'>
-                            <CircularProgress fulfilled={78} total={100} />
+                            <CircularProgress fulfilled={88} total={100} />
                         </div>
                     </div>
 
@@ -106,7 +106,7 @@ const Services = () => {
                         </div>
                         
                         <div className='inner2'>
-                            <CircularProgress fulfilled={65} total={100} />
+                            <CircularProgress fulfilled={70} total={100} />
                         </div>
                     </div>
 
@@ -124,7 +124,7 @@ const Services = () => {
                         </div>
                         
                         <div className='inner2'>
-                            <CircularProgress fulfilled={70} total={100} />
+                            <CircularProgress fulfilled={80} total={100} />
                         </div>
                     </div>
 
@@ -157,7 +157,7 @@ const Services = () => {
                         </div>
                         
                         <div className='inner2'>
-                            <CircularProgress fulfilled={78} total={100} />
+                            <CircularProgress fulfilled={98} total={100} />
                         </div>
                     </div>
                     <div className='card1 services-card1'>
@@ -172,7 +172,7 @@ const Services = () => {
                         </div>
                         
                         <div className='inner2'>
-                            <CircularProgress fulfilled={78} total={100} />
+                            <CircularProgress fulfilled={90} total={100} />
                         </div>
                     </div>
                     <div className='card1 services-card1'>
@@ -187,7 +187,7 @@ const Services = () => {
                         </div>
                         
                         <div className='inner2'>
-                            <CircularProgress fulfilled={80} total={100} />
+                            <CircularProgress fulfilled={70} total={100} />
                         </div>
                     </div>
                     <div className='card1 services-card1'>
@@ -202,7 +202,7 @@ const Services = () => {
                         </div>
                         
                         <div className='inner2'>
-                            <CircularProgress fulfilled={80} total={100} />
+                            <CircularProgress fulfilled={98} total={100} />
                         </div>
                     </div>
                     <div className='card1 services-card1'>
@@ -217,7 +217,7 @@ const Services = () => {
                         </div>
                         
                         <div className='inner2'>
-                            <CircularProgress fulfilled={80} total={100} />
+                            <CircularProgress fulfilled={90} total={100} />
                         </div>
                     </div>
                     <div className='card1 services-card1'>
@@ -232,7 +232,7 @@ const Services = () => {
                         </div>
                         
                         <div className='inner2'>
-                            <CircularProgress fulfilled={80} total={100} />
+                            <CircularProgress fulfilled={70} total={100} />
                         </div>
                     </div>
                     <div className='card1 services-card1'>

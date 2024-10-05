@@ -40,7 +40,7 @@ const showMyMessage =() => {
               <h4>Godwin Chiemerie Ojukwu</h4>
               <p>
                 <em>
-                  Multifaceted tech professional with expertise in Frontend and Backend Development (ReactJS, NodeJs, Javascript,
+                  Multifaceted tech professional with expertise in Frontend and Backend Software Development (ReactJS, NodeJs, Javascript,
                   Django, Python,Typescript, Tailwind, HTML, CSS etc), Graphics design (Corel Draw, Photoshop etc), and UI design (Figma, Adobe XD etc).
                   Passionate about blending creativity and innovation to create beautiful and impactful software solutions.
                 </em>
@@ -75,12 +75,12 @@ const showMyMessage =() => {
           <div className="my-col">
             <h3 className="resume-title">Professional Experience</h3>
             <div className="resume-item">
-              <h4>SYSTEM ANALYST, WEB DEVELOPER, DESIGNER (ICT)</h4>
+              <h4>SYSTEM ANALYST, SOFTWARE DEVELOPER, DESIGNER (ICT)</h4>
               <h5>2017 - Present</h5>
               <p><em>University of Calabar, Calabar, NG</em></p>
               <ul>
                 <li>
-                  Web Development: Designed and implemented system solutions to address key teaching challenges.
+                  Software Development: Designed and implemented system solutions to address key teaching challenges.
                 </li>
                 <li>
                   Gap Analysis: Performed comprehensive gap analysis to bridge the gap between current systems and desired outcomes.
