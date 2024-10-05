@@ -269,7 +269,7 @@ const Services = () => {
                         <div className='inner1'>
                         <div className='icon services-icon'><FaLinux /></div>
                         <span className='ta services-tag'>
-                            LINUX
+                            BASH
                         </span>
                         {/* <small className='tools'>
                             React. JAVASCRIPT. HTML. CSS.
