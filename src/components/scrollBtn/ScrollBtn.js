@@ -10,7 +10,7 @@ const ScrollBtn = () => {
     const handleScroll = () => {
         const scrollPosition = window.scrollY; // => scroll position
         setScrollHeight(scrollPosition);
-        console.log(scrollPosition);
+        // console.log(scrollPosition);
     };
     useEffect(()=>{
         window.addEventListener("scroll", handleScroll);

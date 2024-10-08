@@ -1,5 +1,15 @@
 const Data = [
     {
+        pid: 1223,
+        category: ['Backend'],
+        tools:[ 'Javascript', 'Node.js', 'Express', 'Postgres'],
+        image: 'placeholder.png',
+        title: 'HNG-ExpressJS-Boilerplate',
+        desc: 'The HNG Boilerplate ExpressJS is an open-source project providing a structured foundation for building web applications with Express.js. It offers a clean and scalable setup with key features like user authentication, environment configuration, and predefined routes, aimed at helping developers accelerate project development. Contributors can use this boilerplate as a starting point to standardize their Express.js projects. It promotes best practices in code organization, error handling, and middleware management, making it easier for teams to collaborate and maintain clean, reusable code.',
+        repo: 'https://github.com/hngprojects/hng_boilerplate_expressjs',
+        live: 'deployment.nextjs.boilerplate.hng.tech'
+    },
+    {
         pid: 1,
         category: ['Frontend', 'Fullstack'],
         tools:['React', 'Javascript', 'HTML', 'CSS'],

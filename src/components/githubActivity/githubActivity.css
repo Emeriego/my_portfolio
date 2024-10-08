@@ -1,0 +1,34 @@
+/* src/components/GitHubActivity.css */
+.github-activity {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 600px;
+    background-color: #f9f9f9;
+  }
+  
+  .github-activity h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .github-activity ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .github-activity li {
+    margin-bottom: 10px;
+  }
+  
+  .github-activity li a {
+    color: #0366d6;
+    text-decoration: none;
+  }
+  
+  .github-activity li p {
+    font-size: 0.85rem;
+    color: #666;
+  }
+  

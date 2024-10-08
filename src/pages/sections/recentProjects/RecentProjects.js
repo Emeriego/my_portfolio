@@ -1,6 +1,8 @@
 import React, {useEffect, useState} from 'react';
 import Projects from '../../../components/projectsCard/Projects';
 import Data from '../../../components/projectsCard/ProjectsData';
+import Contributions from '../../../components/contributions/contributions';
+import GithubActivity from '../../../components/githubActivity/githubActivity'
 import './RecentProjects.css';
     
 const RecentProjects = () =>{
@@ -75,7 +77,8 @@ return (
                 })
             }
             </div>
-            
+            {/* <Contributions /> */}
+            {/* <GithubActivity /> */}
             
         </div>
     </section>
