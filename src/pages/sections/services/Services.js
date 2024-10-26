@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
-import { AiFillGithub, AiOutlineHtml5, AiOutlineJavaScript } from 'react-icons/ai';
+import { AiFillGithub, AiFillCustomerService, AiOutlineHtml5, AiFillAndroid, AiFillApi, AiOutlineJavaScript, AiFillAlert, AiOutlineSolution, AiOutlineGitlab, AiFillBuild } from 'react-icons/ai';
 import { FaAppStoreIos, FaCodeBranch, FaDocker, FaPython, FaFigma, FaNodeJs, FaLinux} from "react-icons/fa6";
 import { FaAtom } from "react-icons/fa6";
-import { BiLogoTailwindCss, BiLogoPostgresql, BiLogoTypescript} from "react-icons/bi";
+import { BiLogoTailwindCss, BiLogoPostgresql, BiLogoTypescript, BiArch} from "react-icons/bi";
 import { DiIllustrator } from "react-icons/di";
 import { DiPhotoshop, DiJavascript1, DiRedis} from "react-icons/di";
+import { BiPowerOff } from 'react-icons/bi';
 
 
 
@@ -27,6 +28,116 @@ const Services = () => {
 
                 <div className='cards-container services-cards-container'>
                     
+                <div className='card1 services-card1'>
+                        <div className='inner1'>
+                        <div className='icon services-icon'><AiFillAndroid /></div>
+                        <span className='ta services-tag'>
+                            PWA
+                        </span>
+                        {/* <small className='tools'>
+                            React. JAVASCRIPT. HTML. CSS.
+                        </small> */}
+                        </div>
+                        
+                        <div className='inner2'>
+                            <CircularProgress fulfilled={70} total={100} />
+                        </div>
+                    </div>
+
+                    <div className='card1 services-card1'>
+                        <div className='inner1'>
+                        <div className='icon services-icon'><AiFillApi /></div>
+                        <span className='ta services-tag'>
+                            Micro-frontend
+                        </span>
+                        {/* <small className='tools'>
+                            React. JAVASCRIPT. HTML. CSS.
+                        </small> */}
+                        </div>
+                        
+                        <div className='inner2'>
+                            <CircularProgress fulfilled={75} total={100} />
+                        </div>
+                    </div>
+
+                    <div className='card1 services-card1'>
+                        <div className='inner1'>
+                        <div className='icon services-icon'><AiFillAlert /></div>
+                        <span className='ta services-tag'>
+                            Sockets.io
+                        </span>
+                        {/* <small className='tools'>
+                            React. JAVASCRIPT. HTML. CSS.
+                        </small> */}
+                        </div>
+                        
+                        <div className='inner2'>
+                            <CircularProgress fulfilled={80} total={100} />
+                        </div>
+                    </div>
+
+                    <div className='card1 services-card1'>
+                        <div className='inner1'>
+                        <div className='icon services-icon'><BiArch /></div>
+                        <span className='ta services-tag'>
+                            Chart.js
+                        </span>
+                        {/* <small className='tools'>
+                            React. JAVASCRIPT. HTML. CSS.
+                        </small> */}
+                        </div>
+                        
+                        <div className='inner2'>
+                            <CircularProgress fulfilled={70} total={100} />
+                        </div>
+                    </div>
+                    <div className='card1 services-card1'>
+                        <div className='inner1'>
+                        <div className='icon services-icon'><AiOutlineSolution /></div>
+                        <span className='ta services-tag'>
+                            TDD
+                        </span>
+                        {/* <small className='tools'>
+                            React. JAVASCRIPT. HTML. CSS.
+                        </small> */}
+                        </div>
+                        
+                        <div className='inner2'>
+                            <CircularProgress fulfilled={90} total={100} />
+                        </div>
+                    </div>
+
+                    <div className='card1 services-card1'>
+                        <div className='inner1'>
+                        <div className='icon services-icon'><AiOutlineGitlab /></div>
+                        <span className='ta services-tag'>
+                            CI/CD Pipiline
+                        </span>
+                        {/* <small className='tools'>
+                            React. JAVASCRIPT. HTML. CSS.
+                        </small> */}
+                        </div>
+                        
+                        <div className='inner2'>
+                            <CircularProgress fulfilled={87} total={100} />
+                        </div>
+                    </div>
+
+                    <div className='card1 services-card1'>
+                        <div className='inner1'>
+                        <div className='icon services-icon'><AiFillBuild /></div>
+                        <span className='ta services-tag'>
+                            SEO
+                        </span>
+                        {/* <small className='tools'>
+                            React. JAVASCRIPT. HTML. CSS.
+                        </small> */}
+                        </div>
+                        
+                        <div className='inner2'>
+                            <CircularProgress fulfilled={70} total={100} />
+                        </div>
+                    </div>
                     <div className='card1 services-card1'>
                         <div className='inner1'>
                         <div className='icon services-icon'><FaFigma /></div>
@@ -39,7 +150,7 @@ const Services = () => {
                         </div>
                         
                         <div className='inner2'>
-                            <CircularProgress fulfilled={70} total={100} />
+                            <CircularProgress fulfilled={60} total={100} />
                         </div>
                     </div>
                     
