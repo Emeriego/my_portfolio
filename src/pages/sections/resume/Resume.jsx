@@ -5,24 +5,24 @@ import './Resume.css'; // Import your custom styles
 const Resume = () => {
   const [feedback, setFeedback] = useState(null);
   const showMessage = (message, type) => {
-      setFeedback({ message, type });
+    setFeedback({ message, type });
 
-      setTimeout(() => {
-          setFeedback(null);
-      }, 6000);
+    setTimeout(() => {
+      setFeedback(null);
+    }, 6000);
   };
 
-const showMyMessage =() => {
-  showMessage("The Resume has been successfully downloaded", "success")
-}
+  const showMyMessage = () => {
+    showMessage("The Resume has been successfully downloaded", "success")
+  }
   return (
     <section id="resume" className="section bootstrap-scope resume">
-       {feedback && (
-                <div
-                class={`feedback ${feedback.type === 'success' ? 'feedback-success' : 'feedback-error'}`}                >
-                    {feedback.message}
-                </div>
-            )}
+      {feedback && (
+        <div
+          class={`feedback ${feedback.type === 'success' ? 'feedback-success' : 'feedback-error'}`}                >
+          {feedback.message}
+        </div>
+      )}
       {/* Section Title */}
       <div className="container2">
         <h2 className='section-title'>Resume</h2>
@@ -75,7 +75,7 @@ const showMyMessage =() => {
           <div className="my-col">
             <h3 className="resume-title">Professional Experience</h3>
             <div className="resume-item">
-              <h4>SYSTEM ANALYST, SOFTWARE DEVELOPER, DESIGNER (ICT)</h4>
+              <h4>SENIOR SYSTEM ANALYST, SOFTWARE DEVELOPER, DESIGNER (ICT)</h4>
               <h5>2017 - Present</h5>
               <p><em>University of Calabar, Calabar, NG</em></p>
               <ul>
@@ -91,7 +91,20 @@ const showMyMessage =() => {
 
               </ul>
             </div>
+            <div className="resume-item">
+              <h4>SENIOR FRONTEND ENGINEER</h4>
+              <h5>2023 - Present</h5>
+              <p><em>INT+ TECHNOLOGY, Lagos, NG</em></p>
+              <ul>
 
+                <li>
+                  Developed responsive user interfaces for an e-commerce PWA using frameworks Next.js.                </li>
+                <li>
+                  API Integration: Implemented third-party APIs to boost the app’s capabilities and facilitate smooth
+                  interactions with external services.                </li>
+
+              </ul>
+            </div>
             <div className="resume-item">
               <h4>Graphics Design Specialist</h4>
               <h5>2017 - 2018</h5>
