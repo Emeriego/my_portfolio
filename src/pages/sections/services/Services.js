@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { AiFillGithub, AiFillCustomerService, AiOutlineHtml5, AiFillAndroid, AiFillApi, AiOutlineJavaScript, AiFillAlert, AiOutlineSolution, AiOutlineGitlab, AiFillBuild } from 'react-icons/ai';
-import { FaAppStoreIos, FaCodeBranch, FaDocker, FaPython, FaFigma, FaNodeJs, FaLinux} from "react-icons/fa6";
+import { FaAppStoreIos, FaCodeBranch, FaDocker, FaAngular, FaPython, FaFigma, FaNodeJs, FaLinux} from "react-icons/fa6";
 import { FaAtom } from "react-icons/fa6";
 import { BiLogoTailwindCss, BiLogoPostgresql, BiLogoTypescript, BiArch} from "react-icons/bi";
 import { DiIllustrator } from "react-icons/di";
@@ -41,6 +41,21 @@ const Services = () => {
                         
                         <div className='inner2'>
                             <CircularProgress fulfilled={70} total={100} />
+                        </div>
+                    </div>
+                          <div className='card1 services-card1'>
+                        <div className='inner1'>
+                        <div className='icon services-icon'><FaAngular /></div>
+                        <span className='ta services-tag'>
+                            AngularJS
+                        </span>
+                        {/* <small className='tools'>
+                            React. JAVASCRIPT. HTML. CSS.
+                        </small> */}
+                        </div>
+                        
+                        <div className='inner2'>
+                            <CircularProgress fulfilled={90} total={100} />
                         </div>
                     </div>
 

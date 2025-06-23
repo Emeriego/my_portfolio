@@ -40,14 +40,14 @@ const Resume = () => {
               <h4>Godwin Chiemerie Ojukwu</h4>
               <p>
                 <em>
-                  Multifaceted tech professional with expertise in Frontend and Backend Software Development (ReactJS, NodeJs, Javascript,
+                  Multifaceted tech professional with expertise in Frontend and Backend Software Development (ReactJS, AngularJs, NodeJs, Javascript,
                   Django, Python,Typescript, Tailwind, HTML, CSS etc), Graphics design (Corel Draw, Photoshop etc), and UI design (Figma, Adobe XD etc).
                   Passionate about blending creativity and innovation to create beautiful and impactful software solutions.
                 </em>
               </p>
               <ul>
-                <li>University of Calabar, Calabar, CRS</li>
-                <li>(234) 80307 61163</li>
+                <li>Schwalbenweg 37, 44625 Herne, NRW, DE.</li>
+                <li>(49) 015755339577</li>
                 <li>emeriego@gmail.com</li>
               </ul>
             </div>
@@ -76,7 +76,7 @@ const Resume = () => {
             <h3 className="resume-title">Professional Experience</h3>
             <div className="resume-item">
               <h4>SENIOR SYSTEM ANALYST, SOFTWARE DEVELOPER, DESIGNER (ICT)</h4>
-              <h5>2017 - Present</h5>
+              <h5>2017 - 2025</h5>
               <p><em>University of Calabar, Calabar, NG</em></p>
               <ul>
                 <li>
@@ -93,7 +93,7 @@ const Resume = () => {
             </div>
             <div className="resume-item">
               <h4>SENIOR FRONTEND ENGINEER</h4>
-              <h5>2023 - Present</h5>
+              <h5>2023 - 2025</h5>
               <p><em>INT+ TECHNOLOGY, Lagos, NG</em></p>
               <ul>
 
